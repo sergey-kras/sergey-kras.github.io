@@ -30,7 +30,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="#000">
 </head>
 
-<body>
+<body class="mainPage">
     <section class="topBar bigWrapper" style="display: none;">
         <div class="topBar__content">
             <div class="topBar__buttons">
@@ -80,8 +80,8 @@
     <section class="topBar bigWrapper">
         <div class="topBar__content">
             <div class="topBar__buttons">
-                <div class="topBar__button _onWhite_background">
-                    <div class="button _type_simple _onWhite_background">
+                <div data-color-tougle="true" class="topBar__button">
+                    <div data-color-tougle="true" class="button _type_simple">
                         <div class="button__icon">
                             <img src="./img/icons/icon_call.png" alt="">
                         </div>
@@ -90,19 +90,19 @@
                     </div>
                 </div>
 
-                <div class="button _type_accent _onWhite_background">
+                <div data-color-tougle="true" class="button _type_accent">
                     <div class="button__icon">
-                        <div class="topBar__download _onWhite_background"></div>
+                        <div data-color-tougle="true" class="topBar__download"></div>
                     </div>
 
                     <span class="button__text">Скачать бриф [DOC]</span>
                 </div>
             </div>
 
-            <div class="topBar__logo _onWhite_background"></div>
+            <div data-color-tougle="true" class="topBar__logo"></div>
 
             <div class="topBar__path">
-                <div class="title _onWhite_background">
+                <div data-color-tougle="true" class="title">
                     <div class="title__right">
                         <div class="title__subtext">профессиональная</div>
 
@@ -114,7 +114,7 @@
             </div>
 
             <div class="topBar__burger">
-                <div class="burger _onWhite_background">
+                <div data-color-tougle="true" class="burger">
                     <span class="burger__line"></span>
                     <span class="burger__line"></span>
                     <span class="burger__line"></span>
@@ -123,7 +123,7 @@
         </div>
     </section>
 
-    <section class="stepLine _onWhite_background">
+    <section class="stepLine" id="stepLine">
         <div class="stepLine__line">
             <div class="stepLine__filling"></div>
         </div>
@@ -167,7 +167,7 @@
         </div>
     </section>
 
-    <section class="leftBar _onWhite_background">
+    <section class="leftBar" data-color-tougle="true">
         <div class="leftBar__content">
             <div class="leftBar__socials">
                 <a href="#" class="leftBar__social">
@@ -197,7 +197,7 @@
         </div>
     </section>
 
-    <section class="mainDisplay">
+    <section data-scroll="true" data-topbar-class="" data-color="default" class="mainDisplay">
         <div class="creativeBlock">
             <div class="bananaImage">
                 <div class="bananaImage__image">
@@ -345,7 +345,7 @@
         <div class="mainDisplay__layer"></div>
     </section>
 
-    <section class="portfolio">
+    <section data-scroll="true" data-topbar-class="bigWapper" data-color="_onWhite_background" class="portfolio">
         <div class="portfolio__hint">
             <img src="./img/mainDisplay/contentElements/tags.png" alt="">
 
@@ -728,7 +728,7 @@
         </div>
     </section>
 
-    <section class="services">
+    <section data-scroll="true" data-topbar-class="bigWapper" data-color="default" class="services">
         <div class="services__sunEffect"></div>
 
         <div class="services__content">
@@ -1004,7 +1004,7 @@
         </div>
     </section>
 
-    <section class="team">
+    <section data-scroll="true" data-topbar-class="bigWapper" data-color="_onWhite_background" class="team">
         <div class="team__content">
             <div class="team__title">
                 <div class="title _onWhite_background">
@@ -1152,7 +1152,7 @@
         </div>
     </section>
 
-    <section class="partners">
+    <section data-scroll="true" data-topbar-class="bigWapper" data-color="default" class="partners">
         <div class="partners__sunEffect"></div>
 
         <div class="partners__content">
@@ -1270,7 +1270,7 @@
         </div>
     </section>
 
-    <section class="blog">
+    <section data-scroll="true" data-topbar-class="bigWapper" data-color="_onWhite_background" class="blog">
         <div class="blog__content">
             <div class="blog__topline">
                 <div class="blog__title">
@@ -1528,7 +1528,7 @@
         </div>
     </section>
 
-    <section class="contacts">
+    <section data-scroll="true" data-topbar-class="bigWapper" data-color="default" class="contacts">
         <div class="contacts__sunEffect"></div>
 
         <div class="contacts__content">
