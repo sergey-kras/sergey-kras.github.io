@@ -1,0 +1,1679 @@
+<!DOCTYPE html>
+<html lang="ru" id="contentHolder">
+
+<head>
+    <meta charset="utf-8">
+    <title>JuicyArt</title>
+
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta property="og:image" content="path/to/image.jpg">
+
+    <!-- <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png"> -->
+    <!-- Chrome, Firefox OS and Opera -->
+
+    <meta name="theme-color" content="#000">
+
+    <!-- Windows Phone -->
+
+    <meta name="msapplication-navbutton-color" content="#000">
+
+    <!-- iOS Safari -->
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+</head>
+
+<body class="mainPage">
+    <section class="topBar bigWrapper" style="display: none;">
+        <div class="topBar__content">
+            <div class="topBar__buttons">
+                <div class="topBar__button">
+                    <div class="button _type_simple">
+                        <div class="button__icon">
+                            <img src="./img/icons/icon_call.png" alt="">
+                        </div>
+
+                        <span class="button__text">Обратный звонок</span>
+                    </div>
+                </div>
+
+                <div class="button _type_accent">
+                    <div class="button__icon">
+                        <div class="topBar__download"></div>
+                    </div>
+
+                    <span class="button__text">Скачать бриф [DOC]</span>
+                </div>
+            </div>
+
+            <div class="topBar__logo"></div>
+
+            <div class="topBar__path">
+                <div class="title">
+                    <div class="title__right">
+                        <div class="title__subtext">профессиональная</div>
+
+                        <div class="title__text">
+                            Разработка / Дизайн / Маркетинг
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="topBar__burger">
+                <div class="burger">
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="topBar bigWrapper">
+        <div class="topBar__content">
+            <div class="topBar__buttons">
+                <div data-color-tougle="true" class="topBar__button">
+                    <div data-color-tougle="true" class="button _type_simple">
+                        <div class="button__icon">
+                            <img src="./img/icons/icon_call.png" alt="">
+                        </div>
+
+                        <span class="button__text">Обратный звонок</span>
+                    </div>
+                </div>
+
+                <div data-color-tougle="true" class="button _type_accent">
+                    <div class="button__icon">
+                        <div data-color-tougle="true" class="topBar__download"></div>
+                    </div>
+
+                    <span class="button__text">Скачать бриф [DOC]</span>
+                </div>
+            </div>
+
+            <div data-color-tougle="true" class="topBar__logo"></div>
+
+            <div class="topBar__path">
+                <div data-color-tougle="true" class="title">
+                    <div class="title__right">
+                        <div class="title__subtext">профессиональная</div>
+
+                        <div class="title__text">
+                            Разработка / Дизайн / Маркетинг
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="topBar__burger">
+                <div data-color-tougle="true" class="burger">
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stepLine" id="stepLine">
+        <div class="stepLine__line">
+            <div class="stepLine__filling"></div>
+        </div>
+
+        <div class="stepLine__steps">
+            <div class="stepLine__step" data-link="contacts">
+                <div class="stepLine__text">Контакты</div>
+
+                <div class="stepLine__pin"></div>
+            </div>
+
+            <div class="stepLine__step" data-link="blog">
+                <div class="stepLine__text">Блог</div>
+
+                <div class="stepLine__pin"></div>
+            </div>
+
+            <div class="stepLine__step" data-link="partners">
+                <div class="stepLine__text">Отзывы клиентов</div>
+
+                <div class="stepLine__pin"></div>
+            </div>
+
+            <div class="stepLine__step" data-link="team">
+                <div class="stepLine__text">Наша команда</div>
+
+                <div class="stepLine__pin"></div>
+            </div>
+
+            <div class="stepLine__step" data-link="services">
+                <div class="stepLine__text">услуги и цены</div>
+
+                <div class="stepLine__pin"></div>
+            </div>
+
+            <div class="stepLine__step" data-link="portfolio">
+                <div class="stepLine__text">Портфолио</div>
+
+                <div class="stepLine__pin"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="leftBar" data-color-tougle="true">
+        <div class="leftBar__content">
+            <div class="leftBar__socials">
+                <a href="#" class="leftBar__social">
+                    <div class="leftBar__be"></div>
+                </a>
+
+                <a href="#" class="leftBar__social">
+                    <div class="leftBar__sk"></div>
+                </a>
+
+                <a href="#" class="leftBar__social">
+                    <div class="leftBar__inst"></div>
+                </a>
+
+                <a href="#" class="leftBar__social">
+                    <div class="leftBar__vk"></div>
+                </a>
+            </div>
+
+            <div class="leftBar__pointer">
+                <div class="leftBar__text">услуги</div>
+
+                <div class="leftBar__pointerImage">
+                    <div class="leftBar__mouse"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-scroll="true" data-topbar-class="" data-color="default" class="mainDisplay">
+        <div class="creativeBlock">
+            <div class="bananaImage">
+                <div class="bananaImage__image">
+                    <img src="./img/mainDisplay/contentElements/bananaClear2.png" alt="">
+                </div>
+
+                <div class="bananaImage__shadow">
+                    <img src="./img/mainDisplay/contentElements/shadow.png" alt="">
+                </div>
+
+                <div class="bananaImage__coubsAbsoluteElements">
+                    <div class="bananaImage__coubAbsoluteElement _number_1">
+                        <img src="./img/mainDisplay/absoluteElements/Слой_2.png" alt="">
+                    </div>
+
+                    <div class="bananaImage__coubAbsoluteElement _number_2">
+                        <img src="./img/mainDisplay/absoluteElements/Слой_2_копия_3.png" alt="">
+                    </div>
+
+                    <div class="bananaImage__coubAbsoluteElement _number_3">
+                        <img src="./img/mainDisplay/absoluteElements/Слой_5_копия_3.png" alt="">
+                    </div>
+
+                    <div class="bananaImage__coubAbsoluteElement _number_4">
+                        <img src="./img/mainDisplay/absoluteElements/Слой_5_копия_3.png" alt="">
+                    </div>
+
+                    <div class="bananaImage__coubAbsoluteElement _number_5">
+                        <img src="./img/mainDisplay/absoluteElements/Слой_2_копия_4.png" alt="">
+                    </div>
+
+                    <div class="bananaImage__coubAbsoluteElement _number_6">
+                        <img src="./img/mainDisplay/absoluteElements/Слой_2_копия_4.png" alt="">
+                    </div>
+
+                    <div class="bananaImage__coubAbsoluteElement _number_7">
+                        <img src="./img/mainDisplay/absoluteElements/Слой_5.png" alt="">
+                    </div>
+
+                    <div class="bananaImage__coubAbsoluteElement _number_8">
+                        <img src="./img/mainDisplay/absoluteElements/Слой_2_копия.png" alt="">
+                    </div>
+
+                    <div class="bananaImage__coubAbsoluteElement _number_9">
+                        <img src="./img/mainDisplay/absoluteElements/Слой_5_копия_4.png" alt="">
+                    </div>
+
+                    <div class="bananaImage__coubAbsoluteElement _number_10">
+                        <img src="./img/mainDisplay/absoluteElements/Слой_5_копия_7.png" alt="">
+                    </div>
+
+                    <div class="bananaImage__coubAbsoluteElement _number_11">
+                        <img src="./img/mainDisplay/absoluteElements/Слой_5_копия.png" alt="">
+                    </div>
+
+                    <div class="bananaImage__coubAbsoluteElement _number_12">
+                        <img src="./img/mainDisplay/absoluteElements/Слой_2_копия_10.png" alt="">
+                    </div>
+                </div>
+
+                <div class="bananaImage__grassAbsoluteElements">
+                    <div class="bananaImage__grassAbsoluteElement _number_1">
+                        <img src="./img/mainDisplay/absoluteElements/Слой_13_копия_2.png" alt="">
+                    </div>
+
+                    <div class="bananaImage__grassAbsoluteElement _number_2">
+                        <img src="./img/mainDisplay/absoluteElements/Слой_14.png" alt="">
+                    </div>
+
+                    <div class="bananaImage__grassAbsoluteElement _number_3">
+                        <img src="./img/mainDisplay/absoluteElements/Слой_13_копия.png" alt="">
+                    </div>
+
+                    <div class="bananaImage__grassAbsoluteElement _number_4">
+                        <img src="./img/mainDisplay/absoluteElements/Слой_14_копия_1.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="creativeBlock__social">
+                <a href="#" class="creativeBlock__socialItem">
+                    <img src="./img/icons/if_vkontakte_306170.png" alt="">
+                </a>
+
+                <a href="#" class="creativeBlock__socialItem">
+                    <img src="./img/icons/if_38-instagram_1161953.png" alt="">
+                </a>
+
+                <a href="#" class="creativeBlock__socialItem">
+                    <img src="./img/icons/if_07-skype_104495.png" alt="">
+                </a>
+
+                <a href="#" class="creativeBlock__socialItem">
+                    <img src="./img/icons/if_Behance_alt_367573.png" alt="">
+                </a>
+            </div>
+
+            <div class="creativeBlock__toBottom">
+                <span class="creativeBlock__text">Портфолио</span>
+
+                <img src="./img/icons/tobot.png" alt="">
+            </div>
+        </div>
+
+        <div class="mainDisplay__externalElements">
+            <div class="mainDisplay__externalElement _number_1">
+                <img src="./img/mainDisplay/absoluteElements/Слой_5_копия_5.png" alt="">
+            </div>
+
+            <div class="mainDisplay__externalElement _number_2">
+                <img src="./img/mainDisplay/absoluteElements/Слой_2_копия_8.png" alt="">
+            </div>
+
+            <div class="mainDisplay__externalElement _number_3">
+                <img src="./img/mainDisplay/absoluteElements/Слой_2_копия_7.png" alt="">
+            </div>
+
+            <div class="mainDisplay__externalElement _number_4">
+                <img src="./img/mainDisplay/absoluteElements/Слой_5_копия_6.png" alt="">
+            </div>
+
+            <div class="mainDisplay__externalElement _number_5">
+                <img src="./img/mainDisplay/absoluteElements/Слой_2_копия_6.png" alt="">
+            </div>
+
+            <div class="mainDisplay__externalElement _number_6">
+                <img src="./img/mainDisplay/absoluteElements/Слой_2_копия_9.png" alt="">
+            </div>
+
+            <div class="mainDisplay__externalElement _number_7">
+                <img src="./img/mainDisplay/absoluteElements/Слой_2_копия_5.png" alt="">
+            </div>
+
+            <div class="mainDisplay__externalElement _number_8">
+                <img src="./img/mainDisplay/absoluteElements/Слой_5_копия_8.png" alt="">
+            </div>
+
+            <div class="mainDisplay__externalElement _number_9">
+                <img src="./img/mainDisplay/absoluteElements/Слой_2_копия_11.png" alt="">
+            </div>
+        </div>
+
+        <div class="mainDisplay__sunEffect"></div>
+        <div class="mainDisplay__sun"></div>
+        <div class="mainDisplay__layer"></div>
+    </section>
+
+    <section data-scroll="true" data-topbar-class="bigWapper" data-color="_onWhite_background" class="portfolio">
+        <div class="portfolio__hint">
+            <img src="./img/mainDisplay/contentElements/tags.png" alt="">
+
+            <span class="portfolio__hintText">Tags</span>
+        </div>
+
+        <div class="portfolio__tags">
+            <div class="portfolio__tag">Все работы</div>
+
+            <div class="portfolio__tag">Логотипы</div>
+
+            <div class="portfolio__tag">Все работы</div>
+
+            <div class="portfolio__tag">Логотипы</div>
+
+            <div class="portfolio__tag">Все работы</div>
+
+            <div class="portfolio__tag">Логотипы</div>
+
+            <div class="portfolio__tag">Landing Pages</div>
+
+            <div class="portfolio__tag">Полиграфия</div>
+
+            <div class="portfolio__tag">Интернет-Магазин</div>
+
+            <div class="portfolio__tag">Фирменный стиль</div>
+
+            <div class="portfolio__tag">Корпоративные</div>
+
+            <div class="portfolio__tag">Сайты под ключ</div>
+
+            <div class="portfolio__tag">Верстка</div>
+
+            <div class="portfolio__tag">Анимация</div>
+
+            <div class="portfolio__tag">Motion Design</div>
+        </div>
+
+        <div class="portfolio__cases">
+            <div class="portfolio__case">
+                <div class="case">
+                    <div class="case__image">
+                        <div class="case__photo" style="background-image: url(./img/mainDisplay/contentElements/case.png)"></div>
+
+                        <div class="case__icon">
+                            <img src="./img/mainDisplay/contentElements/look.png" alt="">
+                        </div>
+
+                        <div class="case__hover">
+                            <div class="case__iconHover">
+                                <img src="./img/mainDisplay/contentElements/loop.png" alt="">
+                            </div>
+
+                            <div class="case__textHover">Посмотреть проект</div>
+                        </div>
+                    </div>
+
+                    <div class="case__descroption">Ruletka</div>
+
+                    <div class="case__subDescroption">
+                        Shop
+
+                        <br> design
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio__case">
+                <div class="case">
+                    <div class="case__image">
+                        <div class="case__photo" style="background-image: url(./img/mainDisplay/contentElements/case.png)"></div>
+
+                        <div class="case__icon">
+                            <img src="./img/mainDisplay/contentElements/look.png" alt="">
+                        </div>
+
+                        <div class="case__hover">
+                            <div class="case__iconHover">
+                                <img src="./img/mainDisplay/contentElements/loop.png" alt="">
+                            </div>
+
+                            <div class="case__textHover">Посмотреть проект</div>
+                        </div>
+                    </div>
+
+                    <div class="case__descroption">Ruletka</div>
+
+                    <div class="case__subDescroption">
+                        Shop
+
+                        <br> design
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio__case">
+                <div class="case">
+                    <div class="case__image">
+                        <div class="case__photo" style="background-image: url(./img/mainDisplay/contentElements/case.png)"></div>
+
+                        <div class="case__icon">
+                            <img src="./img/mainDisplay/contentElements/look.png" alt="">
+                        </div>
+
+                        <div class="case__hover">
+                            <div class="case__iconHover">
+                                <img src="./img/mainDisplay/contentElements/loop.png" alt="">
+                            </div>
+
+                            <div class="case__textHover">Посмотреть проект</div>
+                        </div>
+                    </div>
+
+                    <div class="case__descroption">Ruletka</div>
+
+                    <div class="case__subDescroption">
+                        Shop
+
+                        <br> design
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio__case">
+                <div class="case">
+                    <div class="case__image">
+                        <div class="case__photo" style="background-image: url(./img/mainDisplay/contentElements/case.png)"></div>
+
+                        <div class="case__icon">
+                            <img src="./img/mainDisplay/contentElements/look.png" alt="">
+                        </div>
+
+                        <div class="case__hover">
+                            <div class="case__iconHover">
+                                <img src="./img/mainDisplay/contentElements/loop.png" alt="">
+                            </div>
+
+                            <div class="case__textHover">Посмотреть проект</div>
+                        </div>
+                    </div>
+
+                    <div class="case__descroption">Ruletka</div>
+
+                    <div class="case__subDescroption">
+                        Shop
+
+                        <br> design
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio__case">
+                <div class="case">
+                    <div class="case__image">
+                        <div class="case__photo" style="background-image: url(./img/mainDisplay/contentElements/case.png)"></div>
+
+                        <div class="case__icon">
+                            <img src="./img/mainDisplay/contentElements/look.png" alt="">
+                        </div>
+
+                        <div class="case__hover">
+                            <div class="case__iconHover">
+                                <img src="./img/mainDisplay/contentElements/loop.png" alt="">
+                            </div>
+
+                            <div class="case__textHover">Посмотреть проект</div>
+                        </div>
+                    </div>
+
+                    <div class="case__descroption">Ruletka</div>
+
+                    <div class="case__subDescroption">
+                        Shop
+
+                        <br> design
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio__case">
+                <div class="case">
+                    <div class="case__image">
+                        <div class="case__photo" style="background-image: url(./img/mainDisplay/contentElements/case.png)"></div>
+
+                        <div class="case__icon">
+                            <img src="./img/mainDisplay/contentElements/look.png" alt="">
+                        </div>
+
+                        <div class="case__hover">
+                            <div class="case__iconHover">
+                                <img src="./img/mainDisplay/contentElements/loop.png" alt="">
+                            </div>
+
+                            <div class="case__textHover">Посмотреть проект</div>
+                        </div>
+                    </div>
+
+                    <div class="case__descroption">Ruletka</div>
+
+                    <div class="case__subDescroption">
+                        Shop
+
+                        <br> design
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio__case">
+                <div class="case">
+                    <div class="case__image">
+                        <div class="case__photo" style="background-image: url(./img/mainDisplay/contentElements/case.png)"></div>
+
+                        <div class="case__icon">
+                            <img src="./img/mainDisplay/contentElements/look.png" alt="">
+                        </div>
+
+                        <div class="case__hover">
+                            <div class="case__iconHover">
+                                <img src="./img/mainDisplay/contentElements/loop.png" alt="">
+                            </div>
+
+                            <div class="case__textHover">Посмотреть проект</div>
+                        </div>
+                    </div>
+
+                    <div class="case__descroption">Ruletka</div>
+
+                    <div class="case__subDescroption">
+                        Shop
+
+                        <br> design
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio__case">
+                <div class="case">
+                    <div class="case__image">
+                        <div class="case__photo" style="background-image: url(./img/mainDisplay/contentElements/case.png)"></div>
+
+                        <div class="case__icon">
+                            <img src="./img/mainDisplay/contentElements/look.png" alt="">
+                        </div>
+
+                        <div class="case__hover">
+                            <div class="case__iconHover">
+                                <img src="./img/mainDisplay/contentElements/loop.png" alt="">
+                            </div>
+
+                            <div class="case__textHover">Посмотреть проект</div>
+                        </div>
+                    </div>
+
+                    <div class="case__descroption">Ruletka</div>
+
+                    <div class="case__subDescroption">
+                        Shop
+
+                        <br> design
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio__case">
+                <div class="case">
+                    <div class="case__image">
+                        <div class="case__photo" style="background-image: url(./img/mainDisplay/contentElements/case.png)"></div>
+
+                        <div class="case__icon">
+                            <img src="./img/mainDisplay/contentElements/look.png" alt="">
+                        </div>
+
+                        <div class="case__hover">
+                            <div class="case__iconHover">
+                                <img src="./img/mainDisplay/contentElements/loop.png" alt="">
+                            </div>
+
+                            <div class="case__textHover">Посмотреть проект</div>
+                        </div>
+                    </div>
+
+                    <div class="case__descroption">Ruletka</div>
+
+                    <div class="case__subDescroption">
+                        Shop
+
+                        <br> design
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio__case">
+                <div class="case">
+                    <div class="case__image">
+                        <div class="case__photo" style="background-image: url(./img/mainDisplay/contentElements/case.png)"></div>
+
+                        <div class="case__icon">
+                            <img src="./img/mainDisplay/contentElements/look.png" alt="">
+                        </div>
+
+                        <div class="case__hover">
+                            <div class="case__iconHover">
+                                <img src="./img/mainDisplay/contentElements/loop.png" alt="">
+                            </div>
+
+                            <div class="case__textHover">Посмотреть проект</div>
+                        </div>
+                    </div>
+
+                    <div class="case__descroption">Ruletka</div>
+
+                    <div class="case__subDescroption">
+                        Shop
+
+                        <br> design
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio__case">
+                <div class="case">
+                    <div class="case__image">
+                        <div class="case__photo" style="background-image: url(./img/mainDisplay/contentElements/case.png)"></div>
+
+                        <div class="case__icon">
+                            <img src="./img/mainDisplay/contentElements/look.png" alt="">
+                        </div>
+
+                        <div class="case__hover">
+                            <div class="case__iconHover">
+                                <img src="./img/mainDisplay/contentElements/loop.png" alt="">
+                            </div>
+
+                            <div class="case__textHover">Посмотреть проект</div>
+                        </div>
+                    </div>
+
+                    <div class="case__descroption">Ruletka</div>
+
+                    <div class="case__subDescroption">
+                        Shop
+
+                        <br> design
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio__case">
+                <div class="case">
+                    <div class="case__image">
+                        <div class="case__photo" style="background-image: url(./img/mainDisplay/contentElements/case.png)"></div>
+
+                        <div class="case__icon">
+                            <img src="./img/mainDisplay/contentElements/look.png" alt="">
+                        </div>
+
+                        <div class="case__hover">
+                            <div class="case__iconHover">
+                                <img src="./img/mainDisplay/contentElements/loop.png" alt="">
+                            </div>
+
+                            <div class="case__textHover">Посмотреть проект</div>
+                        </div>
+                    </div>
+
+                    <div class="case__descroption">Ruletka</div>
+
+                    <div class="case__subDescroption">
+                        Shop
+
+                        <br> design
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio__loadMore">
+            <div class="button _type_accent _onWhite_background">
+                <span class="button__text">Загрузить</span>
+            </div>
+        </div>
+    </section>
+
+    <section data-scroll="true" data-topbar-class="bigWapper" data-color="default" class="services" id="services">
+        <div class="services__sunEffect"></div>
+
+        <div class="services__content">
+            <div class="services__title">
+                <div class="title">
+                    <div class="title__left">
+                        <div class="title__pin"></div>
+                    </div>
+
+                    <div class="title__right">
+                        <div class="title__subtext">Более 10 пакетов услуг</div>
+
+                        <div class="title__text">Полный комплект услуг</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services__priceCards">
+                <div class="services__priceCard">
+                    <div class="priceCard">
+                        <div class="priceCard__header">
+                            <div class="priceCard__icon">
+                                <img src="./img/mainDisplay/contentElements/web-develop.png" alt="">
+                            </div>
+
+                            <div class="priceCard__title">Разработка сайтов</div>
+                        </div>
+
+                        <ul class="priceCard__content">
+                            <li class="priceCard__item">Редизайн сайтов</li>
+
+                            <li class="priceCard__item">Дизайн адаптивного сайта</li>
+
+                            <li class="priceCard__item">Дизайн Landing Page</li>
+
+                            <li class="priceCard__item">Дизайн корпоративного сайта</li>
+
+                            <li class="priceCard__item">Индивидуальный дизайн сайта</li>
+
+                            <li class="priceCard__item">Дизайн интернет-магазина</li>
+
+                            <li class="priceCard__item">Игровой дизайн</li>
+                        </ul>
+
+                        <div class="priceCard__price">
+                            <span>от 10 000 р.</span>
+                        </div>
+
+                        <div class="priceCard__footer">
+                            <div class="button _type_accent">
+                                <span class="button__text">Сделать заказ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__priceCard">
+                    <div class="priceCard">
+                        <div class="priceCard__header">
+                            <div class="priceCard__icon">
+                                <img src="./img/mainDisplay/contentElements/if_Science__Technology_44_2633215.png" alt="">
+                            </div>
+
+                            <div class="priceCard__title">Разработка сайтов</div>
+                        </div>
+
+                        <ul class="priceCard__content">
+                            <li class="priceCard__item">Редизайн сайтов</li>
+
+                            <li class="priceCard__item">Дизайн адаптивного сайта</li>
+
+                            <li class="priceCard__item">Дизайн Landing Page</li>
+
+                            <li class="priceCard__item">Дизайн корпоративного сайта</li>
+
+                            <li class="priceCard__item">Индивидуальный дизайн сайта</li>
+
+                            <li class="priceCard__item">Дизайн интернет-магазина</li>
+
+                            <li class="priceCard__item">Игровой дизайн</li>
+                        </ul>
+
+                        <div class="priceCard__price">
+                            <span>от 10 000 р.</span>
+                        </div>
+
+                        <div class="priceCard__footer">
+                            <div class="button _type_accent">
+                                <span class="button__text">Сделать заказ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__priceCard">
+                    <div class="priceCard">
+                        <div class="priceCard__header">
+                            <div class="priceCard__icon">
+                                <img src="./img/mainDisplay/contentElements/if_Science__Technology_45_2633214.png" alt="">
+                            </div>
+
+                            <div class="priceCard__title">Разработка сайтов</div>
+                        </div>
+
+                        <ul class="priceCard__content">
+                            <li class="priceCard__item">Редизайн сайтов</li>
+
+                            <li class="priceCard__item">Дизайн адаптивного сайта</li>
+
+                            <li class="priceCard__item">Дизайн Landing Page</li>
+
+                            <li class="priceCard__item">Дизайн корпоративного сайта</li>
+
+                            <li class="priceCard__item">Индивидуальный дизайн сайта</li>
+
+                            <li class="priceCard__item">Дизайн интернет-магазина</li>
+
+                            <li class="priceCard__item">Игровой дизайн</li>
+                        </ul>
+
+                        <div class="priceCard__price">
+                            <span>от 10 000 р.</span>
+                        </div>
+
+                        <div class="priceCard__footer">
+                            <div class="button _type_accent">
+                                <span class="button__text">Сделать заказ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__priceCard">
+                    <div class="priceCard">
+                        <div class="priceCard__header">
+                            <div class="priceCard__icon">
+                                <img src="./img/mainDisplay/contentElements/if_Science__Technology_43_2633216.png" alt="">
+                            </div>
+
+                            <div class="priceCard__title">Разработка сайтов</div>
+                        </div>
+
+                        <ul class="priceCard__content">
+                            <li class="priceCard__item">Редизайн сайтов</li>
+
+                            <li class="priceCard__item">Дизайн адаптивного сайта</li>
+
+                            <li class="priceCard__item">Дизайн Landing Page</li>
+
+                            <li class="priceCard__item">Дизайн корпоративного сайта</li>
+
+                            <li class="priceCard__item">Индивидуальный дизайн сайта</li>
+
+                            <li class="priceCard__item">Дизайн интернет-магазина</li>
+
+                            <li class="priceCard__item">Игровой дизайн</li>
+                        </ul>
+
+                        <div class="priceCard__price">
+                            <span>от 10 000 р.</span>
+                        </div>
+
+                        <div class="priceCard__footer">
+                            <div class="button _type_accent">
+                                <span class="button__text">Сделать заказ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services__title">
+                <div class="title _dim">
+                    <div class="title__left">
+                        <div class="title__pin"></div>
+                    </div>
+
+                    <div class="title__right">
+                        <div class="title__subtext">последовательность</div>
+
+                        <div class="title__text">Схема работы над проектом</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services__stepsDevelop">
+                <div class="stepDevelop _bigArrow">
+                    <div class="stepDevelop__icon">
+                        <img src="./img/mainDisplay/absoluteElements/messages.svg" alt="">
+                    </div>
+
+                    <div class="stepDevelop__text">
+                        Обсуждение
+
+                        <br> проекта
+                    </div>
+                </div>
+
+                <div class="services__stepDevelop">
+                    <div class="stepDevelop _smallArrow">
+                        <div class="stepDevelop__icon">
+                            <img src="./img/mainDisplay/absoluteElements/money.svg" alt="">
+                        </div>
+
+                        <div class="stepDevelop__text">Предоплата</div>
+                    </div>
+                </div>
+
+                <div class="services__stepDevelop">
+                    <div class="stepDevelop _bigArrow">
+                        <div class="stepDevelop__icon">
+                            <img src="./img/mainDisplay/absoluteElements/settings.svg" alt="">
+                        </div>
+
+                        <div class="stepDevelop__text">
+                            Утверждаем
+
+                            <br> Дизайн
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__stepDevelop">
+                    <div class="stepDevelop _smallArrow">
+                        <div class="stepDevelop__icon">
+                            <img src="./img/mainDisplay/absoluteElements/settings2.svg" alt="">
+                        </div>
+
+                        <div class="stepDevelop__text">
+                            Утверждаем
+
+                            <br> верстку
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__stepDevelop">
+                    <div class="stepDevelop _bigArrow">
+                        <div class="stepDevelop__icon">
+                            <img src="./img/mainDisplay/absoluteElements/programmer.svg" alt="">
+                        </div>
+
+                        <div class="stepDevelop__text">
+                            Программи-
+
+                            <br> рование
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__stepDevelop">
+                    <div class="stepDevelop">
+                        <div class="stepDevelop__icon">
+                            <img src="./img/mainDisplay/absoluteElements/finish.svg" alt="">
+                        </div>
+
+                        <div class="stepDevelop__text">
+                            Оплата и
+
+                            <br> конец работ
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="services__bottomText">
+            <div class="bottomText">
+                Наши специалисты внимательно следят за развитием современных технологий. Они постоянно повышают знания в этой отрасли, чтобы
+                быть в курсе всех тенденций в мире IT. Но только создать интернет-ресурс недостаточно, ещё его нужно популяризовать,
+                привлечь к нему аудиторию. Для этого необходимо продвижение веб-сайта. Разработка и раскрутка — два неотъемлемых
+                слагаемых для достижения вашей главной цели: начать зарабатывать с помощью интернета.
+            </div>
+        </div>
+    </section>
+
+    <section data-scroll="true" data-topbar-class="bigWapper" data-color="_onWhite_background" class="team" id="team">
+        <div class="team__content">
+            <div class="team__title">
+                <div class="title _onWhite_background">
+                    <div class="title__left">
+                        <div class="title__pin"></div>
+                    </div>
+
+                    <div class="title__right">
+                        <div class="title__subtext">С большим опытом!</div>
+
+                        <div class="title__text">Наша команда</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team__peopleSlider">
+                <div class="peopleSlider">
+                    <div class="peopleSlider__item">
+                        <div class="peopleCart _theme_orange">
+                            <div class="peopleCart__image" style="background-image: url(./img/mainDisplay/contentElements/andrey.png)">
+                                <div class="peopleCart__light"></div>
+                            </div>
+
+                            <div class="peopleCart__info">
+                                <h3 class="peopleCart__title">Андрей Роабиш</h3>
+
+                                <p class="peopleCart__text">Директор студии</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="peopleSlider__item">
+                        <div class="peopleCart _theme_bue">
+                            <div class="peopleCart__image" style="background-image: url(./img/mainDisplay/contentElements/viktor.png)">
+                                <div class="peopleCart__light"></div>
+                            </div>
+
+                            <div class="peopleCart__info">
+                                <h3 class="peopleCart__title">Викто Огурцов</h3>
+
+                                <p class="peopleCart__text">Программист</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="peopleSlider__item">
+                        <div class="peopleCart _theme_red">
+                            <div class="peopleCart__image" style="background-image: url(./img/mainDisplay/contentElements/how-girl.png)">
+                                <div class="peopleCart__light"></div>
+                            </div>
+
+                            <div class="peopleCart__info">
+                                <h3 class="peopleCart__title">Анна Селедкова</h3>
+
+                                <p class="peopleCart__text">Дизайнер</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="peopleSlider__item">
+                        <div class="peopleCart _theme_lazure">
+                            <div class="peopleCart__image" style="background-image: url(./img/mainDisplay/contentElements/tolya.png)">
+                                <div class="peopleCart__light"></div>
+                            </div>
+
+                            <div class="peopleCart__info">
+                                <h3 class="peopleCart__title">Анатолий Кунька</h3>
+
+                                <p class="peopleCart__text">Верстальщик</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team__numbers">
+                    <div class="team__numberItem">
+                        <div class="successBlock">
+                            <div class="successBlock__image _folder">
+                                <img src="./img/mainDisplay/contentElements/folder.svg" alt="">
+                            </div>
+
+                            <div class="successBlock__info">
+                                <div class="successBlock__bigNumber">350+</div>
+
+                                <div class="successBlock__text">проектов выполнено</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team__numberItem">
+                        <div class="successBlock">
+                            <div class="successBlock__image _group">
+                                <img src="./img/mainDisplay/contentElements/group.svg" alt="">
+                            </div>
+
+                            <div class="successBlock__info">
+                                <div class="successBlock__bigNumber">12</div>
+
+                                <div class="successBlock__text">
+                                    человек в
+
+                                    <br> команде
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team__numberItem">
+                        <div class="successBlock">
+                            <div class="successBlock__image _win">
+                                <img src="./img/mainDisplay/contentElements/win.svg" alt="">
+                            </div>
+
+                            <div class="successBlock__info">
+                                <div class="successBlock__bigNumber">6 лет</div>
+
+                                <div class="successBlock__text">опыта работы</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team__numberItem">
+                        <div class="successBlock">
+                            <div class="successBlock__image _eye">
+                                <img src="./img/mainDisplay/contentElements/glaz.svg" alt="">
+                            </div>
+
+                            <div class="successBlock__info _topText">
+                                <div class="successBlock__bigNumber">300+</div>
+
+                                <div class="successBlock__text">просмотров на behance</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="team__bottomText">
+            <div class="bottomText _onWhite_background">
+                Наши специалисты внимательно следят за развитием современных технологий. Они постоянно повышают знания в этой отрасли, чтобы
+                быть в курсе всех тенденций в мире IT. Но только создать интернет-ресурс недостаточно, ещё его нужно популяризовать,
+                привлечь к нему аудиторию. Для этого необходимо продвижение веб-сайта. Разработка и раскрутка — два неотъемлемых
+                слагаемых для достижения вашей главной цели: начать зарабатывать с помощью интернета.
+            </div>
+        </div>
+    </section>
+
+    <section data-scroll="true" data-topbar-class="bigWapper" data-color="default" class="partners" id="partners">
+        <div class="partners__sunEffect"></div>
+
+        <div class="partners__content">
+            <div class="partners__title">
+                <div class="title">
+                    <div class="title__left">
+                        <div class="title__pin"></div>
+                    </div>
+
+                    <div class="title__right">
+                        <div class="title__subtext">С большим опытом!</div>
+
+                        <div class="title__text">Наша команда</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="partners__collection">
+                <div class="partners__item">
+                    <img src="./img/mainDisplay/contentElements/partners1.svg" alt="">
+                </div>
+
+                <div class="partners__item">
+                    <img src="./img/mainDisplay/contentElements/partners2.svg" alt="">
+                </div>
+
+                <div class="partners__item">
+                    <img src="./img/mainDisplay/contentElements/partners3.svg" alt="">
+                </div>
+
+                <div class="partners__item">
+                    <img src="./img/mainDisplay/contentElements/partners4.svg" alt="">
+                </div>
+
+                <div class="partners__item">
+                    <img src="./img/mainDisplay/contentElements/partners5.svg" alt="">
+                </div>
+
+                <div class="partners__item">
+                    <img src="./img/mainDisplay/contentElements/partners6.svg" alt="">
+                </div>
+
+                <div class="partners__item">
+                    <img src="./img/mainDisplay/contentElements/partners7.svg" alt="">
+                </div>
+
+                <div class="partners__item">
+                    <img src="./img/mainDisplay/contentElements/partners8.png" alt="">
+                </div>
+
+                <div class="partners__item">
+                    <img src="./img/mainDisplay/contentElements/partners9.png" alt="">
+                </div>
+
+                <div class="partners__item">
+                    <img src="./img/mainDisplay/contentElements/partners10.png" alt="">
+                </div>
+
+                <div class="partners__item">
+                    <img src="./img/mainDisplay/contentElements/partners11.png" alt="">
+                </div>
+
+                <div class="partners__item">
+                    <img src="./img/mainDisplay/contentElements/partners12.png" alt="">
+                </div>
+
+                <div class="partners__item">
+                    <img src="./img/mainDisplay/contentElements/partners13.png" alt="">
+                </div>
+
+                <div class="partners__item">
+                    <img src="./img/mainDisplay/contentElements/partners14.png" alt="">
+                </div>
+
+                <div class="partners__item">
+                    <img src="./img/mainDisplay/contentElements/partners15.png" alt="">
+                </div>
+
+                <div class="partners__item">
+                    <img src="./img/mainDisplay/contentElements/partners16.png" alt="">
+                </div>
+
+                <div class="partners__item">
+                    <img src="./img/mainDisplay/contentElements/partners17.png" alt="">
+                </div>
+
+                <div class="partners__item">
+                    <img src="./img/mainDisplay/contentElements/partners18.png" alt="">
+                </div>
+
+                <div class="partners__item">
+                    <img src="./img/mainDisplay/contentElements/partners19.png" alt="">
+                </div>
+
+                <div class="partners__item">
+                    <img src="./img/mainDisplay/contentElements/partners20.png" alt="">
+                </div>
+
+                <div class="partners__item">
+                    <img src="./img/mainDisplay/contentElements/partners21.png" alt="">
+                </div>
+
+                <div class="partners__item">
+                    <img src="./img/mainDisplay/contentElements/partners22.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="partners__bottomText">
+            <div class="bottomText">
+                Наши специалисты внимательно следят за развитием современных технологий. Они постоянно повышают знания в этой отрасли, чтобы
+                быть в курсе всех тенденций в мире IT. Но только создать интернет-ресурс недостаточно, ещё его нужно популяризовать,
+                привлечь к нему аудиторию. Для этого необходимо продвижение веб-сайта. Разработка и раскрутка — два неотъемлемых
+                слагаемых для достижения вашей главной цели: начать зарабатывать с помощью интернета.
+            </div>
+        </div>
+    </section>
+
+    <section data-scroll="true" data-topbar-class="bigWapper" data-color="_onWhite_background" class="blog" id="blog">
+        <div class="blog__content">
+            <div class="blog__topline">
+                <div class="blog__title">
+                    <div class="title _onWhite_background">
+                        <div class="title__left">
+                            <div class="title__pin"></div>
+                        </div>
+
+                        <div class="title__right">
+                            <div class="title__subtext">С большим опытом!</div>
+
+                            <div class="title__text">Наша команда</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog__labels">
+                    <div class="blog__label">
+                        <div class="label _blue">Blogs</div>
+                    </div>
+
+                    <div class="blog__label">
+                        <div class="label _red">SEO</div>
+                    </div>
+
+                    <div class="blog__label">
+                        <div class="label _skyBlue">News</div>
+                    </div>
+
+                    <div class="blog__label">
+                        <div class="label _green">design</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog__posts">
+                <div class="blog__post">
+                    <div class="post">
+                        <div class="post__image">
+                            <div class="post__picture" style="background-image: url('../img/mainDisplay/contentElements/postImage.png')"></div>
+                        </div>
+
+                        <div class="post__info">
+                            <div class="post__title">
+                                Что популярнее: сайты или приложение?
+                            </div>
+
+                            <div class="post__items">
+                                <div class="post__item">
+                                    <div class="label _gray">blogs</div>
+                                </div>
+
+                                <div class="post__item">
+                                    <div class="iconText">
+                                        <div class="iconText__icon">
+                                            <img src="./img/mainDisplay/contentElements/time.svg" alt="">
+                                        </div>
+
+                                        <div class="iconText__text">11 октября 2018</div>
+                                    </div>
+                                </div>
+
+                                <div class="post__item">
+                                    <div class="iconText">
+                                        <div class="iconText__icon">
+                                            <img src="./img/mainDisplay/contentElements/eye.svg" alt="">
+                                        </div>
+
+                                        <div class="iconText__text">450</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="post__text">
+                                Наши специалисты внимательно следят за развитием современных технологий. Они постоянно повышают знания в этой отрасли, чтобы
+                                быть в курсе всех тенденций в мире IT.
+                            </div>
+
+                            <div class="post__learnMore">
+                                <a href="" class="button _type_accent _onWhite_background _small">
+                                    <span class="button__text">Узнать</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog__post">
+                    <div class="post">
+                        <div class="post__image">
+                            <div class="post__picture" style="background-image: url('../img/mainDisplay/contentElements/postImage.png')"></div>
+                        </div>
+
+                        <div class="post__info">
+                            <div class="post__title">
+                                Что популярнее: сайты или приложение?
+                            </div>
+
+                            <div class="post__items">
+                                <div class="post__item">
+                                    <div class="label _gray">blogs</div>
+                                </div>
+
+                                <div class="post__item">
+                                    <div class="iconText">
+                                        <div class="iconText__icon">
+                                            <img src="./img/mainDisplay/contentElements/time.svg" alt="">
+                                        </div>
+
+                                        <div class="iconText__text">11 октября 2018</div>
+                                    </div>
+                                </div>
+
+                                <div class="post__item">
+                                    <div class="iconText">
+                                        <div class="iconText__icon">
+                                            <img src="./img/mainDisplay/contentElements/eye.svg" alt="">
+                                        </div>
+
+                                        <div class="iconText__text">450</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="post__text">
+                                Наши специалисты внимательно следят за развитием современных технологий. Они постоянно повышают знания в этой отрасли, чтобы
+                                быть в курсе всех тенденций в мире IT.
+                            </div>
+
+                            <div class="post__learnMore">
+                                <a href="" class="button _type_accent _onWhite_background _small">
+                                    <span class="button__text">Узнать</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog__post">
+                    <div class="post">
+                        <div class="post__image">
+                            <div class="post__picture" style="background-image: url('../img/mainDisplay/contentElements/postImage.png')"></div>
+                        </div>
+
+                        <div class="post__info">
+                            <div class="post__title">
+                                Что популярнее: сайты или приложение?
+                            </div>
+
+                            <div class="post__items">
+                                <div class="post__item">
+                                    <div class="label _gray">blogs</div>
+                                </div>
+
+                                <div class="post__item">
+                                    <div class="iconText">
+                                        <div class="iconText__icon">
+                                            <img src="./img/mainDisplay/contentElements/time.svg" alt="">
+                                        </div>
+
+                                        <div class="iconText__text">11 октября 2018</div>
+                                    </div>
+                                </div>
+
+                                <div class="post__item">
+                                    <div class="iconText">
+                                        <div class="iconText__icon">
+                                            <img src="./img/mainDisplay/contentElements/eye.svg" alt="">
+                                        </div>
+
+                                        <div class="iconText__text">450</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="post__text">
+                                Наши специалисты внимательно следят за развитием современных технологий. Они постоянно повышают знания в этой отрасли, чтобы
+                                быть в курсе всех тенденций в мире IT.
+                            </div>
+
+                            <div class="post__learnMore">
+                                <a href="" class="button _type_accent _onWhite_background _small">
+                                    <span class="button__text">Узнать</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog__post">
+                    <div class="post">
+                        <div class="post__image">
+                            <div class="post__picture" style="background-image: url('../img/mainDisplay/contentElements/postImage.png')"></div>
+                        </div>
+
+                        <div class="post__info">
+                            <div class="post__title">
+                                Что популярнее: сайты или приложение?
+                            </div>
+
+                            <div class="post__items">
+                                <div class="post__item">
+                                    <div class="label _gray">blogs</div>
+                                </div>
+
+                                <div class="post__item">
+                                    <div class="iconText">
+                                        <div class="iconText__icon">
+                                            <img src="./img/mainDisplay/contentElements/time.svg" alt="">
+                                        </div>
+
+                                        <div class="iconText__text">11 октября 2018</div>
+                                    </div>
+                                </div>
+
+                                <div class="post__item">
+                                    <div class="iconText">
+                                        <div class="iconText__icon">
+                                            <img src="./img/mainDisplay/contentElements/eye.svg" alt="">
+                                        </div>
+
+                                        <div class="iconText__text">450</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="post__text">
+                                Наши специалисты внимательно следят за развитием современных технологий. Они постоянно повышают знания в этой отрасли, чтобы
+                                быть в курсе всех тенденций в мире IT.
+                            </div>
+
+                            <div class="post__learnMore">
+                                <a href="" class="button _type_accent _onWhite_background _small">
+                                    <span class="button__text">Узнать</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog__loadMore">
+                    <div class="button _type_accent _onWhite_background">
+                        <span class="button__text">Еще блоги</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blog__bottomText">
+            <div class="bottomText _onWhite_background">
+                Наши специалисты внимательно следят за развитием современных технологий. Они постоянно повышают знания в этой отрасли, чтобы
+                быть в курсе всех тенденций в мире IT. Но только создать интернет-ресурс недостаточно, ещё его нужно популяризовать,
+                привлечь к нему аудиторию. Для этого необходимо продвижение веб-сайта. Разработка и раскрутка — два неотъемлемых
+                слагаемых для достижения вашей главной цели: начать зарабатывать с помощью интернета.
+            </div>
+        </div>
+    </section>
+
+    <section data-scroll="true" data-topbar-class="bigWapper" data-color="default" class="contacts" id="contacts">
+        <div class="contacts__sunEffect"></div>
+
+        <div class="contacts__content">
+            <div class="contacts__topline">
+                <div class="title">
+                    <div class="title__left">
+                        <div class="title__pin"></div>
+                    </div>
+
+                    <div class="title__right">
+                        <div class="title__subtext">У нас лучшие предложения!</div>
+
+                        <div class="title__text">Контактная информация</div>
+                    </div>
+                </div>
+
+                <div class="contacts__info">
+                    <div class="contacts__left">
+                        <div class="contacts__box _first_box">
+                            <div class="contacts__row _is_title">
+                                <div class="contacts__title">Мы сможем вам помочь!</div>
+                            </div>
+
+                            <div class="contacts__row">
+                                <div class="contacts__text">
+                                    Если есть что-то, о чем вы хотите поговорить, пожалуйста, не стесняйтесь связаться с нами. Даже если вы просто хотите поздороваться,
+                                    мы с нетерпением ждём от вас сообщения!
+                                </div>
+                            </div>
+
+                            <div class="contacts__row">
+                                <div class="button _type_accent _onWhite_background">
+                                    <span class="button__text">Заказать</span>
+                                </div>
+
+                                <div class="contacts__arrowText">&lt;------Закажите сайт</div>
+                            </div>
+                        </div>
+
+                        <div class="contacts__box">
+                            <div class="contacts__row _is_title">
+                                <div class="contacts__title">+7 380 280 80 80</div>
+
+                                <div class="contacts__arrowText">
+                                    &lt;------ Телефон для заказов
+                                </div>
+                            </div>
+
+                            <div class="contacts__row">
+                                <div class="contacts__text">
+                                    Часы работы: Понедельник - Суббота
+
+                                    <div class="contacts__boldText">(с 9:00 до 20:00)</div>
+
+                                    , Воскресенье
+
+                                    <div class="contacts__boldText">(с 11:00 до 18:00)</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contacts__emails">
+                            <div class="contacts__email">
+                                <div class="email">
+                                    <div class="email__icon">
+                                        <img src="./img/mainDisplay/contentElements/email.svg" alt="">
+                                    </div>
+
+                                    <div class="email__info">
+                                        <a href="email:hello@juicyart.com" class="email__title">hello@juicyart.com</a>
+
+                                        <div class="email__text">для клиентов со всего мира</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contacts__email">
+                                <div class="email">
+                                    <div class="email__icon">
+                                        <img src="./img/mainDisplay/contentElements/email.svg" alt="">
+                                    </div>
+
+                                    <div class="email__info">
+                                        <a href="Admin@juicyart.com" class="email__title">Admin@juicyart.com</a>
+
+                                        <div class="email__text">связь с руководителем</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contacts__inSocial">
+                            <div class="inSocial">
+                                <div class="inSocial__text">Мы в социальных сетях!</div>
+
+                                <div class="inSocial__figure">
+                                    <div class="inSocial__topCircle"></div>
+
+                                    <div class="inSocial__line">
+                                        <img src="./img/mainDisplay/contentElements/line.png" alt="">
+                                    </div>
+
+                                    <div class="inSocial__botCircle"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contacts__right">
+                        <div class="contacts__callback">
+                            <div class="contacts__callText">Заказать звонок</div>
+
+                            <div class="contacts__callArrow">
+                                <img src="./img/mainDisplay/contentElements/longarrow.png" alt="">
+                            </div>
+
+                            <div class="contacts__callImage">
+                                <img src="./img/icons/icon_call.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="contacts__map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.173180717764!2d36.21613991609144!3d50.026850679419084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a1365d886413%3A0x5352441f03b7f0fa!2z0YPQuy4g0J7RgtCw0LrQsNGA0LAg0K_RgNC-0YjQsCwgMTgsINCl0LDRgNGM0LrQvtCyLCDQpdCw0YDRjNC60L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCDQo9C60YDQsNC40L3QsCwgNjEwMDA!5e0!3m2!1sru!2shk!4v1543531766030"
+                                height="450" frameborder="0" style="border:0" allowfullscreen="allowfullscreen"></iframe>
+                        </div>
+
+                        <div class="contacts__adressText">
+                            Харьков, ул. Отакара Яроша, 18
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contacts__bottomText">
+            <div class="bottomText">
+                Наши специалисты внимательно следят за развитием современных технологий. Они постоянно повышают знания в этой отрасли, чтобы
+                быть в курсе всех тенденций в мире IT. Но только создать интернет-ресурс недостаточно, ещё его нужно популяризовать,
+                привлечь к нему аудиторию. Для этого необходимо продвижение веб-сайта. Разработка и раскрутка — два неотъемлемых
+                слагаемых для достижения вашей главной цели: начать зарабатывать с помощью интернета.
+            </div>
+        </div>
+    </section>
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
