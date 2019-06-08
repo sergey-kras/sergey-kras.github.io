@@ -1,107 +1,556 @@
 <!DOCTYPE html>
-<html lang="ru" id="contentHolder">
+<html lang=ru id="contentHolder">
 
 <head>
     <meta charset="utf-8">
-    </meta>
+    <title>Деловое предложение</title>
+    <meta name='description' content=''>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
+    <meta property="og:image" content="./img/bg_main.png">
 
-    <title>Spotty Style barber & tattoo</title>
+    <link rel="shortcut icon" href="./img/favicon/logo114.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./img/favicon/logo.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/logo72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/logo114.png">
 
-    <meta name="description" content="">
-    </meta>
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    </meta>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    </meta>
-
-    <meta property="og:image" content="path/to/image.jpg">
-    </meta>
-
-    <!-- <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png"> -->
-    <!-- Chrome, Firefox OS and Opera -->
-
+    <!-- Chrome, Firefox OS and Opera-->
     <meta name="theme-color" content="#000">
-    </meta>
-
-    <!-- Windows Phone -->
-
+    <!-- Windows Phone-->
     <meta name="msapplication-navbutton-color" content="#000">
-    </meta>
-
-    <!-- iOS Safari -->
-
+    <!-- iOS Safari-->
     <meta name="apple-mobile-web-app-status-bar-style" content="#000">
-    </meta>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&amp;subset=cyrillic" rel="stylesheet">
 </head>
 
 <body>
-    <section class="mainDisplay">
-        <div class="mainDisplay__topLine">
-            <div class="topLine">
-                <div class="topLine__container">
-                    <div class="topLine__logo">
-                        <div class="logo">
-                            <img src="./img/logo.svg" alt="">
-                        </div>
-                        <div class="topLine__whatPage">
-                            О Нас
-                        </div>
+    <section class="first">
+        <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="container">
+            <div class="first__topline wow bounceInDown" data-wow-duration="1.5s" data-wow-delay=".5s">
+                <div class="logo">
+                    <div class="logo__image">
+                        <img src="../img/logo.svg" alt="">
                     </div>
-                    <div class="topLine__title">
-                        <div class="topTitle">
-                            <div class="topTitle__symbol">
-                                <img src="./img/dragon.svg" alt="">
-                            </div>
-                            <div class="topTitle__text">
-                                Барбершоп
-                            </div>
-                            <div class="topTitle__symbol">
-                                <img src="./img/dragon.svg" alt="">
-                            </div>
-                            <div class="topTitle__underLine">
-                                <img src="./img/underlineToRight.svg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="topLine__contacts">
-                        <a href='tel:+73832990187' class="topLine__contact">
-                            +7 (383) 299-01-87
-                        </a>
-                        <a href='mailto:spottystyle@mail.ru' class="topLine__contact">
-                            spottystyle@mail.ru
-                        </a>
-                    </div>
-                    <div class="topLine__socials">
-                        <a href="#" class="topLine__social">
-                            <img src="./img/vk.svg" alt="">
-                        </a>
-                        <a href="#" class="topLine__social">
-                            <img src="./img/insta.svg" alt="">
-                        </a>
+                    <div class="logo__text">
+                        <span class="_accent">Деловое предложение</span>
+                        <span class="_default">
+                            От Дмитрия Романова
+                        </span>
                     </div>
                 </div>
+                <div class="tel _hiddenOnDesctop">
+                    <a href="tel:89002044477">8 (900) 204-44-77</a>
+                    <p>(Оператор)</p>
+                </div>
+                <nav>
+                    <div class="tel _onlyOnDesctop">
+                        <a href="tel:89002044477">8 (900) 204-44-77</a>
+                        <p>(Оператор)</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="/">Главная</a>
+                        </li>
+                        <li>
+                            <a href="#about">Обо мне</a>
+                        </li>
+                        <li>
+                            <a href="#info">Инфо</a>
+                        </li>
+                        <li>
+                            <a href="#order">Заявка</a>
+                        </li>
+                        <li>
+                            <a href="#map">Контакты</a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../img/enter.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-        </div>
+            <div class="first__content">
+                <h1 class="wow fadeInLeft" data-wow-duration="1s">
+                    Привет!
+                    <br> Я&nbsp;приглашаю&nbsp;тебя
+                    <br> На&nbsp;деловую встречу</h1>
+                <p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+                    <!-- Знакомство со&nbsp;мной&nbsp;- это&nbsp;возможность&nbsp;перейти
+                    <br> из&nbsp;миллионов простых потребителей YouTube и&nbsp;Instagram
+                    <br> контента в&nbsp;еденицы тех, кто на&nbsp;этом зарабатывает
+                    <br> деньги, статус и&nbsp;привилиегии в&nbsp;обществе -->
 
-        <div class="mainDisplay__content">
-            <div class="mainDisplay__note">
-                <img src="./img/bigNote.svg" alt="">
+                    Знакомство со&nbsp;мной&nbsp;– это&nbsp;уникальная возможность&nbsp;трансформироваться
+                    <br>из&nbsp;миллионов простых пользователей&nbsp;Youtube и&nbsp;Instagram-контентов
+                    <br>в&nbsp;единицы тех, кто&nbsp;умело использует эти&nbsp;инструменты для&nbsp;заработка,
+                    <br>обеспечения статуса и&nbsp;привилегий в&nbsp;обществе!
+
+                </p>
+                <div class="button-block">
+                    <div class="button _first wow flipInX" data-wow-duration="1s" data-wow-delay="1s">
+                        <a href="#order">Встретиться</a>
+                    </div>
+                    <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">и узнать подробности</p>
+                </div>
             </div>
-            <a href='#' class="mainDisplay__button">
-                Записаться сейчас
+            <a href="#about" class="first__toBottom wow fadeIn" data-wow-duration="1s" data-wow-delay="1.5s">
+                <img src="../img/mouse.png" alt="">
+                <p>узнать больше</p>
             </a>
         </div>
     </section>
+    <div class="big_background">
+        <section class="about">
+            <div class="container">
+                <div class="background-top -to-top-bg" id="friend">
+                    <p>Знакомство</p>
+                </div>
+                <div class="title wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0s">
+                    <h3 class="-to-top" id="about">
+                        Немного
+                        <br>
+                        <span>Обо мне</span>
+                    </h3>
+                </div>
+                <div class="text-block wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0s">
+                    <h4 class="wow fadeInRightBig" data-wow-duration="1s" data-wow-delay=".5s"> Дмитрий Романов</h4>
+                    <p>
+                        Опытный предприниматель. Дважды
+                        <br>дипломированный специалист в области
+                        <br>Экономики и Управления персоналом.
+                        <br>
+                        <br>Имею в распоряжении 6 помещений общей
+                        <br>площадью 248 кв.метров, которые
+                        <br>предоставляю в долгосрочную аренду.
+                        <br>
+                        <br>Управляю мини-таксопарком. Предоставляю
+                        <br>8 легковых автомобилей в аренду желающим
+                        <br>для работы в такси или на доставке.
+                    </p>
+                    <!-- <p class="light">
+                        С 2016 года вхожу в состав команды бизнес-ангелов занимающихся инвестированием в перспективные зарубежные стартапы За 2,5
+                        года мы приняли участие в 8 крупнейших fintech-проектах с общим пулом инвестиций от 50 миллионов
+                        рублей средняя доходность в которых составила 4000% годовых
+                    </p> -->
+                </div>
+            </div>
+        </section>
+        <section class="meeting">
+            <div class="container">
+                <div class="title -to-top">
+                    <h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0s">
+                        На встрече
 
+                        <br>
+                        <span>ТЫ УЗНАЕШЬ:</span>
+                    </h3>
+                </div>
+                <div class="time wow fadeInRight" data-wow-duration="1s" data-wow-delay="0s">
+                    <div class="time__line"></div>
+                    <div class="time__text">
+                        За
+                        <br> минут
+                    </div>
+                    <div class="time__number">
+                        30
+                    </div>
+                </div>
+                <div class="listOfKnowlage">
+                    <div class="listOfKnowlage__item">
+                        <div class="listOfKnowlage__number">
+                            1
+                        </div>
+                        <div class="listOfKnowlage__text">
+                            Как принять участие в создании новой рекламной платформы с миллионной аудиторией и получить статус ее сооснователя.
+                        </div>
+                    </div>
+                    <div class="listOfKnowlage__item">
+                        <div class="listOfKnowlage__number">
+                            2
+                        </div>
+                        <div class="listOfKnowlage__text">
+                            Как создать себе деловую репутацию и обеспечить связи в бизнес-среде. Как продвигать товары и услуги малого и среднего бизнеса
+                            на рекламной платформе.
+                        </div>
+                    </div>
+                    <div class="listOfKnowlage__item">
+                        <div class="listOfKnowlage__number">
+                            3
+                        </div>
+                        <div class="listOfKnowlage__text">
+                            Как выйти на постоянный доход выше среднего уровня по стране в ближайшие 3-5 месяцев и получать дополнительные премии за
+                            реализованные сделки.
+                        </div>
+                    </div>
+                    <div class="listOfKnowlage__item">
+                        <div class="listOfKnowlage__number">
+                            4
+                        </div>
+                        <div class="listOfKnowlage__text">
+                            Как «прокачать» свой собственный канал на YouTube и Instagram и привлечь тысячи новых подписчиков с помощью новой рекламной
+                            платформы.
+                        </div>
+                    </div>
+                    <div class="listOfKnowlage__item">
+                        <div class="listOfKnowlage__number">
+                            5
+                        </div>
+                        <div class="listOfKnowlage__text">
+                            А также ты узнаешь множество плюсов и привлекательных перспектив партнерства на ближайшее будущее. Каких? Узнаешь на встрече!
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="text wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
+                    <p>
+                        Я расскажу об инвестиционной системе которая с 2016 года приносит мне и моим партнерам прибыль ежегодно исчисляемую тысячами
+                        процентов и объясню почему мне выгодно что бы этот доходный канал стал доступен так же и для тебя
+                        <br> Так же ты узнаешь как став моим партнером регулярно создавать доход не только в долгосрочной перспективе
+                        но и в моменте
+
+                    </p>
+                </div> -->
+            </div>
+            <div class="background-top -to-top-bg" id="info">
+                <p>Информация</p>
+                <span>на миллион</span>
+            </div>
+        </section>
+        <section class="realize">
+            <div class="container">
+                <div class="title -to-bot">
+                    <h3 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0s">
+                        Что мне даст
+                        <span>
+                            деловое
+                            <br> партнерство?
+                        </span>
+                    </h3>
+                </div>
+                <div class="wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0s">
+                    <div class="-to-bot realize__label">
+                        ВСЕ ПРОСТО:
+                    </div>
+                </div>
+                <div class="realize__text -to-bot">
+                    <p class="wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0s">
+                        Прежде всего - это способ решения 99%
+                        <br> финансовых проблем в разы быстрее и
+                        <br> эффективнее, чем ты сделаешь ЭТО один!
+                    </p>
+                </div>
+            </div>
+            <div class="background-top -to-top">
+                <p class="first">Осоз</p>
+                <sp>на</sp>
+                <p class="last">й это</p>
+            </div>
+        </section>
+        <section class="step">
+            <div class="container">
+                <div class="title -to-top">
+                    <h3>
+                        <span>Сделай шаг навстречу
+                            <br>
+                        </span>Перспективному партнерству</h3>
+                </div>
+                <div class="step__steps">
+                    <div class="steps-item">
+                        <div class="number wow rotateIn" data-wow-duration="1s" data-wow-delay="0s">
+                            01
+                        </div>
+                        <div class="text wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                            Заполни данные и отправь заявку на встречу
+                        </div>
+                    </div>
+                    <div class="steps-item">
+                        <div class="number wow rotateIn" data-wow-duration="1s" data-wow-delay=".2s">
+                            02
+                        </div>
+                        <div class="text wow fadeIn" data-wow-duration="1s" data-wow-delay=".2s">
+                            Дождись звонка оператора и определи с ним дату и время встречи
+                        </div>
+                    </div>
+                    <div class="steps-item">
+                        <div class="number wow rotateIn" data-wow-duration="1s" data-wow-delay=".4s">
+                            03
+                        </div>
+                        <div class="text wow fadeIn" data-wow-duration="1s" data-wow-delay=".4s">
+                            Запиши все данные о встрече в блокнот или на телефон
+                        </div>
+                    </div>
+                    <div class="steps-item">
+                        <div class="number wow rotateIn" data-wow-duration="1s" data-wow-delay=".6s">
+                            04
+                        </div>
+                        <div class="text wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">
+                            Возьми с собой хорошее настроение и приходи на встречу вовремя!
+                        </div>
+                    </div>
+                    <div class="step__button wow flipInX" data-wow-duration="1s" data-wow-delay=".2s">
+                        <div class="button">
+                            <a href="#order">Заполнить данные</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="background-top">
+                <p>Прими решение</p>
+            </div>
+        </section>
+        <section class="order" id="order">
+            <div class="background-top">
+                <p>Заявка</p>
+            </div>
+            <div class="container">
+                <div class="title wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0s">
+                    <h3 class="-to-top">
+                        <span class="orange">
+                            На встречу
+                        </span>
+                        <br>
+                        <span>
+                            ПОЗВОЛЬ МНЕ БОЛЬШЕ
+                            <br> УЗНАТЬ О ТЕБЕ
+                        </span>
+                    </h3>
+                </div>
+                <div class="order__content">
+                    <div class="order__to-left" style="display: none">
+                        <i class="fas fa-arrow-circle-right"></i>
+                    </div>
+                    <div class="order__to-right" style="display: none">
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="first-screen">
+                        <div class="first-screen__left">
+                            <p class="head__text">
+                                Заполни данные на обеих страницах
+                                <br> и отправь заявку на личную встречу.
+                            </p>
+                            <form id="firstForm">
+                                <div class="first-screen__item">
+                                    <label for="name">ФИО:</label>
+                                    <input name="name" id="name" required type="text" placeholder="Иван Иванов">
+                                </div>
+                                <div class="first-screen__item">
+                                    <label for="name">Возраст:</label>
+                                    <input name="age" required type="text" placeholder="24 года">
+                                </div>
+                                <div class="first-screen__item">
+                                    <label for="name">Должность:</label>
+                                    <input name="work" required type="text" placeholder="Фитнес тренер">
+                                </div>
+                                <div class="first-screen__item">
+                                    <label for="name">Доход:</label>
+                                    <input name="cash" required type="number" placeholder="25 000 рублей">
+                                </div>
+                                <div class="button hided">
+                                    <input type="submit" value="Далее">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="first-screen__right">
+                            <ul>
+                                <li>
+                                    <p>
+                                        Просьба сразу заполнять
+                                        <b>настоящие данные</b> о себе, так как это напрямую влияет на возможность дальнейшего
+                                        партнерства.
+
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Предпочтительный возраст потенциального партнера составляет
+                                        <b>от 24 до 32 лет</b>.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Укажите название должности, которую занимаете и
+                                        <b>честно обозначьте</b> Ваш средний доход в месяц.
+                                    </p>
+                                </li>
+                                <li class="_warn">
+                                    <p>
+                                        <i class="fas fa-exclamation-triangle" style="color: yellow"></i>
+                                        Обратите внимание на то, что
+                                        <br> после регистрации внесение
+                                        <br> изменений в данные невозможно
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="second-screen" style="display: none">
+                        <div class="second-screen__left">
+                            <p class="head__text">
+                                Укажите свои настоящий email
+                                <br> и номер телефона для связи
+                            </p>
+                            <form id="secondForm" action="http://exclusiveoffer.website/send-contact.php" method="POST">
+                                <input name="name" type="text" placeholder="Иван Иванов">
+                                <input name="age" type="text" placeholder="24 года">
+                                <input name="work" type="text" placeholder="Фитнес тренер">
+                                <input name="cash" type="text" placeholder="25 000 рублей">
+                                <div class="first-screen__item">
+                                    <label for="phone">
+                                        <i class="fas fa-phone"></i>
+                                    </label>
+                                    <input name="phone" id="phone" required type="text" placeholder="+7 900 3000 0030">
+                                </div>
+                                <div class="first-screen__item">
+                                    <label for="email">
+                                        <i class="far fa-envelope"></i>
+                                    </label>
+                                    <input name="email" id="email" required type="text" placeholder="ivanov@ivan.ru">
+                                </div>
+
+
+                                <div class="check">
+                                    <input type="checkbox" required id="check" name="check" class="checkbox">
+                                    <label for="check">
+                                        Я согласен с правилами и условиями
+                                    </label>
+                                </div>
+                                <div class="button">
+                                    <input type="submit" value="Отправить" id="btncheck">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="second-screen__right">
+                            <ul>
+                                <li>
+                                    <p>
+                                        Номер вашего телефона одновременно будет
+                                        <b>вашим логином</b> для входа в личный кабинет
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Паролем является
+                                        <b>уникальный id</b> который можно получить только от меня при личной встрече
+                                    </p>
+                                </li>
+                                <li class="_warn">
+                                    <p>
+                                        <i class="fas fa-exclamation-triangle" style="color: yellow"></i>
+                                        Обратите внимание на то, что
+                                        <br> после регистрации внесение
+                                        <br> изменений в данные невозможно
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="map" id="map">
+            <div class="background-top">
+                <p>Карта</p>
+            </div>
+            <div class="container">
+                <div class="title wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0s">
+                    <h3 class="-to-top">
+                        МЕСТО ВСТРЕЧИ
+                        <br>
+                        <span>
+                            Уточняй у оператора
+                        </span>
+                    </h3>
+                </div>
+            </div>
+            <div class="map__google-map">
+                <div class="container">
+                    <div class="map__content">
+                        <img src="../img/map_image.jpg" alt="">
+                        <div class="content__item">
+                            <img src="../img/i-loc.png" alt="">
+                            <div class="text">
+                                <h5>Место встречи</h5>
+                                <p>Ул. 8 марта, 46</p>
+                            </div>
+                        </div>
+                        <div class="content__item">
+                            <img src="../img/i-time.png" alt="">
+                            <div class="text">
+                                <h5>График встреч</h5>
+                                <p>пн-пт 09:00 - 22:00</p>
+                            </div>
+                        </div>
+                        <div class="content__item">
+                            <img src="../img/i-number.png" alt="">
+                            <div class="text">
+                                <h5>Телефон</h5>
+                                <p>8 (900) 204-44-77</p>
+                            </div>
+                        </div>
+                        <div class="content__item">
+                            <img src="../img/i-comment.png" alt="">
+                            <div class="text">
+                                <h5>Комментарии</h5>
+                                <p>4-й этаж фуд-корт Мамина Мама</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2182.988479835471!2d60.59664821629227!3d56.82898688085484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43c16ef257304547%3A0x7484825b07cede7f!2z0YPQuy4gOCDQnNCw0YDRgtCwLCA0Niwg0JXQutCw0YLQtdGA0LjQvdCx0YPRgNCzLCDQodCy0LXRgNC00LvQvtCy0YHQutCw0Y8g0L7QsdC7LiwgNjIwMDE0!5e0!3m2!1sru!2sru!4v1551374195119"
+                    width="100%" height="596" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="content">
+                <div class="logo">
+                    <div class="logo__image">
+                        <img src="../img/logo.svg" alt="">
+                    </div>
+                </div>
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="/">Главная</a>
+                            </li>
+                            <li>
+                                <a href="#about">Обо мне</a>
+                            </li>
+                            <li>
+                                <a href="#info">Инфо</a>
+                            </li>
+                            <li>
+                                <a href="#order">Заявка</a>
+                            </li>
+                            <li>
+                                <a href="#map">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <a class="callback" href="tel:89002044477">8 (900) 204-44-77</a>
+                <div class="copy">
+                    <p>
+                        © Деловое предложение
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
-    </link>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
 </body>
 
 </html>
