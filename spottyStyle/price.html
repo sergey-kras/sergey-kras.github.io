@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ru" id="contentHolder">
+
+<head>
+    <meta charset="utf-8">
+    </meta>
+
+    <title>Spotty Style barber & tattoo</title>
+
+    <meta name="description" content="">
+    </meta>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    </meta>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    </meta>
+
+    <meta property="og:image" content="path/to/image.jpg">
+    </meta>
+
+    <!-- <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png"> -->
+    <!-- Chrome, Firefox OS and Opera -->
+
+    <meta name="theme-color" content="#000">
+    </meta>
+
+    <!-- Windows Phone -->
+
+    <meta name="msapplication-navbutton-color" content="#000">
+    </meta>
+
+    <!-- iOS Safari -->
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+    </meta>
+</head>
+
+<body style="overflow: hidden;">
+    <div class="burger">
+        <div class="burger__items" id="burger">
+            <span class="burger__item"></span>
+            <span class="burger__item"></span>
+            <span class="burger__item"></span>
+        </div>
+        <div class="burger__overley"></div>
+    </div>
+
+    <div class="mainMenu">
+        <menu class="mainMenu__content">
+            <li class="mainMenu__item">
+                <a href="#" class="mainMenu__link _active">
+                    Главная
+                </a>
+            </li>
+            <li class="mainMenu__item">
+                <a href="#" class="mainMenu__link _active">
+                    О нас
+                </a>
+            </li>
+            <li class="mainMenu__item">
+                <a href="#" class="mainMenu__link _active">
+                    Галерея
+                </a>
+            </li>
+            <li class="mainMenu__item">
+                <a href="#" class="mainMenu__link _active">
+                    Вакансии
+                </a>
+            </li>
+        </menu>
+    </div>
+
+    <section class="mainDisplay">
+        <div class="mainDisplay__backgrounds">
+            <div class="mainDisplay__pattern _leftBottom"></div>
+            <div class="mainDisplay__pattern _rightTop"></div>
+        </div>
+
+        <div class="mainDisplay__topLine">
+            <div class="topLine">
+                <div class="topLine__container">
+                    <div class="topLine__logo">
+                        <div class="logo">
+                            <img src="./img/logo.svg" alt="">
+                        </div>
+                        <div class="topLine__whatPage">
+                            О Нас
+                        </div>
+                    </div>
+                    <div class="topLine__title">
+                        <div class="topTitle">
+                            <div class="topTitle__symbol">
+                                <img src="./img/dragon.svg" alt="">
+                            </div>
+                            <div class="topTitle__text">
+                                Барбершоп
+                            </div>
+                            <div class="topTitle__symbol">
+                                <img src="./img/dragon.svg" alt="">
+                            </div>
+                            <div class="topTitle__underLine">
+                                <img src="./img/underlineToRight.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="topLine__contacts">
+                        <a href='tel:+73832990187' class="topLine__contact">
+                            +7 (383) 299-01-87
+                        </a>
+                        <a href='mailto:spottystyle@mail.ru' class="topLine__contact">
+                            spottystyle@mail.ru
+                        </a>
+                    </div>
+                    <div class="topLine__socials">
+                        <a href="#" class="topLine__social">
+                            <img src="./img/icons/vk.svg" alt="">
+                        </a>
+                        <a href="#" class="topLine__social">
+                            <img src="./img/icons/insta.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mainDisplay__content">
+            <div class="mainDisplay__note">
+                <img src="./img/bigNote.svg" alt="">
+            </div>
+            <div class="mainDisplay__button">
+                <a href="#" class="button">
+                    Записаться сейчас
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="price">
+        <div class="price__triangles">
+            <div class="price__smallTriangle"></div>
+            <div class="price__bigTriangle"></div>
+        </div>
+        <div class="price__container">
+            <div class="price__title">
+                <div class="title">
+                    Наша прайся
+                </div>
+            </div>
+            <div class="price__slider">
+                <div class="priceSlider" id="priceSlider">
+                    <div class="priceSlider__item">
+                        <div class="priceSlider__image owl-lazy" data-src="./img/interior/15.jpg"></div>
+                        <div class="priceSlider__info">
+                            <div class="priceSlider__text">
+                                Оформление усов
+                            </div>
+                            <div class="priceSlider__text">
+                                ЦЕНА: 700 рублей
+                            </div>
+                            <div class="priceSlider__text">
+                                <a href="#" class="button _small">
+                                    Записаться
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="priceSlider__item">
+                        <div class="priceSlider__image owl-lazy" data-src="./img/interior/15.jpg"></div>
+                        <div class="priceSlider__info">
+                            <div class="priceSlider__text">
+                                Оформление усов
+                            </div>
+                            <div class="priceSlider__text">
+                                ЦЕНА: 700 рублей
+                            </div>
+                            <div class="priceSlider__text">
+                                <a href="#" class="button _small">
+                                    Записаться
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="slider__navs">
+                        <div class="slider__nav _left">
+                            <img src="./img/arrowDefault.svg" alt="">
+                        </div>
+                        <div class="slider__nav _right">
+                            <img src="./img/arrowDefault.svg" alt="">
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="works">
+        <div class="works__triangles">
+            <div class="works__bigTriangle"></div>
+        </div>
+        <div class="works__container">
+            <div class="works__title">
+                <div class="title _left">
+                    Наши работы
+                </div>
+            </div>
+            <div class="works__slider">
+                <div class="worksSlider" id="worksSlider">
+                    <div class="worksSlider__item">
+                        <div class="worksSlider__image owl-lazy" data-src="./img/interior/15.jpg"></div>
+                    </div>
+                    <div class="worksSlider__item">
+                        <div class="worksSlider__image owl-lazy" data-src="./img/interior/15.jpg"></div>
+                    </div>
+                    <!-- <div class="slider__navs">
+                            <div class="slider__nav _left">
+                                <img src="./img/arrowDefault.svg" alt="">
+                            </div>
+                            <div class="slider__nav _right">
+                                <img src="./img/arrowDefault.svg" alt="">
+                            </div>
+                        </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts">
+            <div class="contacts__bigTriangle"></div>
+            <div class="contacts__container">
+                <div class="contacts__title">
+                    <div class="title">
+                        Контакты
+                    </div>
+                </div>
+                <div class="contacts__blocks">
+                    <div class="contacts__block">
+                        <div class="contacts__text _toLeft">
+                            +7 (383) 291-01-87<br/>
+                            WhatsApp<br/>
+                            +7 (913) 917-01-87
+                        </div>
+                    </div>
+                    <div class="contacts__block _image">
+                        <img src="../img/cart.jpg" alt="">
+                    </div>
+                    <div class="contacts__block">
+                        <div class="contacts__text _toRight">
+                            г. Новосибирск <br/>
+                            ул. Мичурина <br>
+                            Метро Сибирская <br>
+                            Метро Красный Проспект
+                        </div>
+                    </div>
+                    <div class="contacts__block _large">
+                        <div class="contacts__text _large">
+                            Барбершоп и тату салон <br>
+                            Spotty Style
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <footer class="footer">
+        <div class="footer__triangles">
+            <div class="footer__smallTriangle"></div>
+            <div class="footer__bigTriangle"></div>
+        </div>
+        <div class="footer__container">
+            <div class="footer__info">
+                <div class="footer__logo">
+                    <div class="logo">
+                        <img src="./img/logo.svg" alt="">
+                    </div>
+                </div>
+                <div class="footer__adress">
+                    г.Новосибирск, ул.Мичурина 21 <br>
+                    Метро Сибирская <br>
+                    Метро Красный проспект
+                </div>
+                <div class="footer__socials">
+                    <a href="#" class="footer__social">
+                        <img src="./img/icons/email_small.svg" alt="">
+                    </a>
+                    <a href="#" class="footer__social">
+                        <img src="./img/icons/whatsApp__small.svg" alt="">
+                    </a>
+                    <a href="#" class="footer__social">
+                        <img src="./img/icons/insta_small.svg" alt="">
+                    </a>
+                    <a href="#" class="footer__social">
+                        <img src="./img/icons/vk_small.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="footer__center">
+                <div class="footer__button">
+                    <a href="#" class="button">
+                        Записаться сейчас
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <link rel="stylesheet" href="css/main.css">
+    </link>
+
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
