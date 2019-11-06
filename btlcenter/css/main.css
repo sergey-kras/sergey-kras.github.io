@@ -427,8 +427,10 @@ body {
   background-size: cover; }
   .wrapper._welcome {
     background-image: url("../img/bg_welcome.png"); }
+  .wrapper._about {
+    background-image: url("../img/bg_about.jpg"); }
   .wrapper__container {
-    max-width: 975px;
+    max-width: 1400px;
     margin: 0 auto;
     padding-left: 30px;
     padding-right: 30px;
@@ -447,7 +449,8 @@ body {
     position: relative;
     align-items: center;
     height: 100%;
-    flex-grow: 1; }
+    flex-grow: 1;
+    padding-top: 140px; }
   .wrapper__blockTitle {
     padding-bottom: 12%;
     width: calc(50% - 15px);
@@ -483,14 +486,29 @@ body {
   height: 20vh; }
 
 .topLine {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -7.5px;
-  margin-right: -7.5px;
-  justify-content: space-between;
-  align-items: center; }
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  top: 30px; }
   .topLine__logo {
     flex-grow: 1; }
+  .topLine__content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -7.5px;
+    margin-right: -7.5px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%; }
+    @media screen and (max-width: 560px) {
+      .topLine__content {
+        padding-left: 15px;
+        padding-right: 15px; } }
   .topLine__callMe {
     flex-grow: 1;
     justify-content: flex-end;
