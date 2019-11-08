@@ -429,6 +429,8 @@ body {
     background-image: url("../img/bg_welcome.png"); }
   .wrapper._about {
     background-image: url("../img/bg_about.jpg"); }
+  .wrapper._events {
+    background-image: url("../img/bg_events.jpg"); }
   .wrapper__container {
     max-width: 1400px;
     margin: 0 auto;
@@ -491,6 +493,35 @@ body {
   right: 66px;
   bottom: 0;
   height: 20vh; }
+
+._about ._lineVertical {
+  position: absolute;
+  height: 140px;
+  width: 3px;
+  top: 0;
+  right: 66px; }
+
+._about ._lineHorizontal {
+  position: absolute;
+  height: 3px;
+  width: calc(50% - 66px - 13px);
+  right: 66px;
+  top: 140px; }
+
+._about ._secondLineVertical {
+  position: absolute;
+  top: 148px;
+  right: 50%;
+  width: 3px;
+  height: calc(100% - 148px);
+  background: #ffe73f;
+  background: linear-gradient(180deg, #ffe73f 0%, white 100%); }
+
+._about .square {
+  position: absolute;
+  right: 50%;
+  top: 140px;
+  transform: translate(50%, -50%); }
 
 .about {
   background: rgba(0, 0, 0, 0.45);
