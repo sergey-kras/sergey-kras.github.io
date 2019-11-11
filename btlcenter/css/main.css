@@ -547,6 +547,54 @@ body {
     text-shadow: 0px 0px 18px rgba(255, 255, 255, 0.63);
     font-size: 36px; }
 
+.events {
+  position: relative;
+  background: rgba(0, 0, 0, 0.45);
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  padding: 25px 40px;
+  width: 100%;
+  box-sizing: border-box;
+  height: 100%;
+  padding-right: 37px; }
+  .events__card {
+    margin-bottom: 22px;
+    min-height: 278px;
+    display: flex;
+    width: calc(100% - 15px); }
+    .events__card:nth-child(2n) {
+      background-color: #ffe73f; }
+    .events__card:nth-child(2n + 1) {
+      background-color: #fff; }
+    .events__card:last-child {
+      margin-bottom: 0px; }
+  .events__rightText {
+    position: absolute;
+    right: -58px;
+    top: 93px;
+    font-family: Lato, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    transform: rotate(90deg);
+    text-transform: uppercase; }
+  .events__scroll {
+    overflow-y: scroll;
+    height: 550px; }
+    .events__scroll::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      background-color: #F5F5F5; }
+    .events__scroll::-webkit-scrollbar {
+      width: 13px;
+      background: #FFFFFF;
+      backdrop-filter: blur(38px);
+      -webkit-backdrop-filter: blur(38px); }
+    .events__scroll::-webkit-scrollbar-thumb {
+      background: #FFE73F;
+      backdrop-filter: blur(38px);
+      -webkit-backdrop-filter: blur(38px); }
+
 .topLine {
   position: fixed;
   z-index: 999;
@@ -783,3 +831,48 @@ body {
     height: 2px;
     right: 0;
     bottom: 0; }
+
+.eventCard {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -7.5px;
+  margin-right: -7.5px;
+  flex-wrap: nowrap;
+  max-width: 100%;
+  width: 100%; }
+  .eventCard__image {
+    width: calc(25% - 15px);
+    background-size: cover; }
+  .eventCard__titleContainer {
+    box-sizing: border-box;
+    word-wrap: break-word;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    width: calc(41.66667% - 15px);
+    display: flex;
+    justify-content: center; }
+  .eventCard__title {
+    width: max-content;
+    align-self: center;
+    color: #000000;
+    font-family: 'Proxima Nova Bold', serif;
+    text-transform: uppercase;
+    font-weight: bold; }
+  .eventCard__titleSmall {
+    font-size: 24px;
+    line-height: 29px; }
+  .eventCard__titleBig {
+    font-size: 48px;
+    line-height: 38px; }
+  .eventCard__text {
+    box-sizing: border-box;
+    word-wrap: break-word;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    width: calc(33.33333% - 15px);
+    align-self: center;
+    font-family: Proxima Nova, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%; }
