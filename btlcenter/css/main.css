@@ -423,7 +423,7 @@ body {
   font-style: normal; }
 
 .wrapper {
-  background-position: center center;
+  background-position: center;
   background-size: cover; }
   .wrapper._welcome {
     background-image: url("../img/bg_welcome.png"); }
@@ -433,6 +433,9 @@ body {
     background-image: url("../img/bg_events.jpg"); }
   .wrapper._team {
     background-image: url("../img/bg_team.jpg"); }
+  .wrapper._form {
+    background-image: url("../img/bg_form.jpg");
+    box-shadow: 0px 9px 25px rgba(0, 0, 0, 0.08); }
   .wrapper__container {
     max-width: 1400px;
     margin: 0 auto;
@@ -634,6 +637,69 @@ body {
     color: #FFFFFF;
     text-align: center; }
 
+.form {
+  padding: 40px;
+  padding-bottom: 29px;
+  box-sizing: border-box;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px); }
+  .form__header {
+    color: #FFFFFF;
+    margin-bottom: 40px; }
+  .form__title {
+    font-family: Proxima Nova, serif;
+    font-size: 24px;
+    line-height: 29px; }
+  .form__description {
+    font-family: Proxima Nova, serif;
+    font-size: 14px;
+    line-height: 19px; }
+  .form__inputs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -7.5px;
+    margin-right: -7.5px;
+    align-items: flex-start;
+    margin-bottom: 26px; }
+  .form__left {
+    width: calc(41.66667% - 15px);
+    box-sizing: border-box;
+    word-wrap: break-word;
+    margin-left: 7.5px;
+    margin-right: 7.5px; }
+  .form__right {
+    width: calc(58.33333% - 15px);
+    box-sizing: border-box;
+    word-wrap: break-word;
+    margin-left: 7.5px;
+    margin-right: 7.5px; }
+  .form__inputWrapper {
+    margin-bottom: 15px; }
+    .form__inputWrapper._textarea {
+      height: 105px; }
+  .form__input {
+    width: 100%;
+    border: none;
+    font-family: Proxima Nova;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.5);
+    outline: none;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    resize: none;
+    height: 100%; }
+  .form__contacts {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -7.5px;
+    margin-right: -7.5px;
+    color: #fff; }
+  .form__contact {
+    margin-bottom: 26px; }
+  .form__social {
+    text-decoration: none; }
+
 .topLine {
   position: fixed;
   z-index: 999;
@@ -676,7 +742,8 @@ body {
   display: flex;
   align-items: center;
   width: max-content;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  border: none; }
   .button._onMain {
     font-family: Montserrat, serif;
     font-style: normal;
