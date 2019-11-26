@@ -502,6 +502,9 @@ body {
     transform: scaleX(1) scaleY(1);
     text-transform: uppercase;
     bottom: 25vh; }
+    @media screen and (min-width: 0px) and (max-width: 620px) {
+      .wrapper__mainDecText {
+        display: none; } }
 
 ._mainDisplay .square {
   position: absolute;
@@ -662,6 +665,12 @@ body {
     @media screen and (min-width: 0px) and (max-width: 850px) {
       .team__item {
         width: calc(25% - 15px); } }
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      .team__item {
+        width: calc(33.33333% - 15px); } }
+    @media screen and (min-width: 0px) and (max-width: 500px) {
+      .team__item {
+        width: calc(50% - 15px); } }
   .team__icon {
     height: 96px;
     width: 96px;
@@ -716,12 +725,21 @@ body {
     word-wrap: break-word;
     margin-left: 7.5px;
     margin-right: 7.5px; }
+    @media screen and (min-width: 0px) and (max-width: 770px) {
+      .form__left {
+        width: calc(100% - 15px);
+        order: 2; } }
   .form__right {
     width: calc(58.33333% - 15px);
     box-sizing: border-box;
     word-wrap: break-word;
     margin-left: 7.5px;
     margin-right: 7.5px; }
+    @media screen and (min-width: 0px) and (max-width: 770px) {
+      .form__right {
+        width: calc(100% - 15px);
+        order: 1;
+        margin-bottom: 15px; } }
   .form__inputWrapper {
     margin-bottom: 15px; }
     .form__inputWrapper._textarea {
@@ -806,6 +824,10 @@ body {
     font-size: 14px;
     line-height: 17px;
     padding: 16px 22px; }
+    @media screen and (min-width: 0px) and (max-width: 500px) {
+      .button._onMain {
+        font-size: 12px;
+        line-height: 16px; } }
   .button._simple {
     background: #FFFFFF;
     box-shadow: 0px 0px 18px white; }
@@ -847,10 +869,18 @@ body {
 .blockTitle__small {
   font-size: 48px;
   line-height: 44px; }
+  @media screen and (min-width: 0px) and (max-width: 500px) {
+    .blockTitle__small {
+      font-size: 28px;
+      line-height: 32px; } }
 
 .blockTitle__big {
   font-size: 96px;
   line-height: 92px; }
+  @media screen and (min-width: 0px) and (max-width: 500px) {
+    .blockTitle__big {
+      font-size: 64px;
+      line-height: 68px; } }
 
 .blockTitle__description {
   font-family: Proxima Nova, serif;
@@ -859,6 +889,10 @@ body {
   margin-top: 18px;
   margin-bottom: 18px;
   color: #FFFFFF; }
+  @media screen and (min-width: 0px) and (max-width: 500px) {
+    .blockTitle__description {
+      font-size: 18px;
+      line-height: 22px; } }
 
 .blockTitle__buttons {
   display: flex; }
@@ -1013,12 +1047,21 @@ body {
   flex-wrap: nowrap;
   max-width: 100%;
   width: 100%; }
+  @media screen and (min-width: 0px) and (max-width: 770px) {
+    .eventCard {
+      flex-wrap: wrap;
+      margin: 0; } }
   .eventCard__image {
     width: calc(25% - 15px);
     background-size: cover; }
     @media screen and (min-width: 0px) and (max-width: 1370px) {
       .eventCard__image {
         width: calc(33.33333% - 15px); } }
+    @media screen and (min-width: 0px) and (max-width: 770px) {
+      .eventCard__image {
+        width: 100%;
+        padding-top: 50%;
+        background-position: center; } }
   .eventCard__titleContainer {
     box-sizing: border-box;
     word-wrap: break-word;
@@ -1030,6 +1073,9 @@ body {
     @media screen and (min-width: 0px) and (max-width: 1370px) {
       .eventCard__titleContainer {
         width: calc(33.33333% - 15px); } }
+    @media screen and (min-width: 0px) and (max-width: 770px) {
+      .eventCard__titleContainer {
+        width: calc(100% - 15px); } }
   .eventCard__title {
     width: max-content;
     align-self: center;
@@ -1044,6 +1090,9 @@ body {
       .eventCard__titleSmall {
         font-size: 16px;
         line-height: 20px; } }
+    @media screen and (min-width: 0px) and (max-width: 770px) {
+      .eventCard__titleSmall {
+        text-align: center; } }
   .eventCard__titleBig {
     font-size: 48px;
     line-height: 38px; }
@@ -1066,6 +1115,10 @@ body {
     @media screen and (min-width: 0px) and (max-width: 1370px) {
       .eventCard__text {
         font-size: 15px; } }
+    @media screen and (min-width: 0px) and (max-width: 770px) {
+      .eventCard__text {
+        width: calc(100% - 15px);
+        text-align: center; } }
 
 .eventsPattern {
   position: absolute;
