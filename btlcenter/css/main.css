@@ -478,6 +478,9 @@ body {
       .wrapper__blockTitle {
         width: calc(100% - 15px);
         padding-bottom: 20px; } }
+    @media screen and (min-width: 0px) and (max-width: 500px) {
+      .wrapper__blockTitle {
+        min-width: auto; } }
   .wrapper__infoCard {
     width: calc(66.66667% - 15px);
     box-sizing: border-box;
@@ -589,10 +592,16 @@ body {
     color: #FFE73F;
     font-size: 48px;
     text-shadow: 0px 0px 18px rgba(255, 231, 63, 0.63); }
+    @media screen and (min-width: 0px) and (max-width: 470px) {
+      .about__titleBig {
+        font-size: 28px; } }
   .about__titleSmall {
     color: #FFFFFF;
     text-shadow: 0px 0px 18px rgba(255, 255, 255, 0.63);
     font-size: 36px; }
+    @media screen and (min-width: 0px) and (max-width: 470px) {
+      .about__titleSmall {
+        font-size: 22px; } }
 
 .events {
   position: relative;
@@ -937,13 +946,17 @@ body {
   margin-left: -7.5px;
   margin-right: -7.5px;
   flex-wrap: nowrap;
-  align-items: center; }
+  align-items: center;
+  position: relative; }
   @media screen and (min-width: 1200px) and (max-width: 1370px) {
     .task {
       justify-content: center; } }
   @media screen and (min-width: 0px) and (max-width: 850px) {
     .task {
       justify-content: center; } }
+  @media screen and (min-width: 0px) and (max-width: 470px) {
+    .task {
+      flex-wrap: wrap; } }
   .task._default .task__icon {
     border: 3px solid #fff;
     box-shadow: 0px 0px 18px rgba(255, 255, 255, 0.63);
@@ -961,6 +974,9 @@ body {
     margin-bottom: -1px;
     padding: 3px 6px;
     box-sizing: border-box; }
+    @media screen and (min-width: 0px) and (max-width: 470px) {
+      .task__line {
+        text-align: center; } }
   .task__content {
     box-sizing: border-box;
     word-wrap: break-word;
@@ -992,6 +1008,9 @@ body {
     justify-content: center;
     border-radius: 100%;
     text-align: center; }
+    @media screen and (min-width: 0px) and (max-width: 470px) {
+      .task__icon {
+        margin-bottom: 51px; } }
   .task__pattern {
     display: flex;
     flex-wrap: wrap;
@@ -999,6 +1018,12 @@ body {
     margin-right: -7.5px;
     min-width: 52px;
     height: 52px; }
+    @media screen and (min-width: 0px) and (max-width: 470px) {
+      .task__pattern {
+        transform: rotate(90deg) translateY(40%);
+        position: absolute;
+        top: 90px;
+        left: 50%; } }
 
 .taskPattern {
   position: relative;
