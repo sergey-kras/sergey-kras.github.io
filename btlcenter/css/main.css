@@ -777,7 +777,7 @@ body {
     text-decoration: none; }
 
 .topLine {
-  position: fixed;
+  position: absolute;
   z-index: 999;
   width: 100%;
   top: 30px;
@@ -822,7 +822,7 @@ body {
     margin-right: -7.5px;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    position: absolute;
     width: 100%;
     transform: translateX(-50%);
     left: 50%; }
@@ -1121,7 +1121,8 @@ body {
       margin: 0; } }
   .eventCard__image {
     width: calc(25% - 15px);
-    background-size: cover; }
+    background-size: cover;
+    min-height: 60px; }
     @media screen and (min-width: 0px) and (max-width: 1370px) {
       .eventCard__image {
         width: calc(33.33333% - 15px); } }
@@ -1204,12 +1205,9 @@ body {
     border-color: #fff;
     position: absolute; }
   .eventsPattern .line._smallLineVertical {
-    height: 50px;
+    height: 200px;
     width: 3px;
     right: 50%; }
-    @media screen and (min-width: 0px) and (max-width: 1200px) {
-      .eventsPattern .line._smallLineVertical {
-        height: 200px; } }
   .eventsPattern .line._smallLineVerticalSecond {
     height: 65px;
     width: 3px;
