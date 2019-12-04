@@ -100,12 +100,12 @@
                         </div>
                         <div class="blockTitle__buttons">
                             <div class="blockTitle__button">
-                                <div class="button _onMain">
+                                <a href="#about" class="button _onMain">
                                     УЗНАТЬ БОЛЬШЕ
-                                </div>
+                                </a>
                             </div>
                             <div class="blockTitle__button">
-                                <div class="button _onMain _simple">
+                                <div class="button _onMain _simple _openVideoPopup">
                                     <div class="button__icon">
                                         <img src="./img/icon_play.svg" alt="">
                                     </div>
@@ -294,7 +294,7 @@
                                         </div>
                                     </div>
                                     <div class="tasks__item">
-                                        <div class="button _simple _bold _full">
+                                        <div class="button _simple _bold _full _openVideoPopup">
                                             <div class="button__icon">
                                                 <img src="./img/icon_play.svg" alt="">
                                             </div>
@@ -349,8 +349,8 @@
                                                 class="eventCard__image"
                                                 style="background-image: url('./img/event_first.png')">
                                             <div class="eventCard__hoverText">
-                                                ONE <br/>
                                                 DAY
+                                                ONE
                                             </div>
                                         </div>
                                         <div class="eventCard__titleContainer">
@@ -375,8 +375,8 @@
                                                 class="eventCard__image"
                                                 style="background-image: url('./img/event_second.png')">
                                             <div class="eventCard__hoverText">
-                                                ONE <br/>
                                                 DAY
+                                                TWO
                                             </div>
                                         </div>
                                         <div class="eventCard__titleContainer">
@@ -401,8 +401,8 @@
                                                 class="eventCard__image"
                                                 style="background-image: url('./img/event_third.png')">
                                             <div class="eventCard__hoverText">
-                                                ONE <br/>
                                                 DAY
+                                                THREE
                                             </div>
                                         </div>
                                         <div class="eventCard__titleContainer">
@@ -427,8 +427,8 @@
                                                 class="eventCard__image"
                                                 style="background-image: url('./img/event_four.png')">
                                            <div class="eventCard__hoverText">
-                                               ONE <br/>
-                                               DAY
+                                               DAY <br/>
+                                               FOUR
                                            </div>
                                         </div>
                                         <div class="eventCard__titleContainer">
@@ -443,6 +443,32 @@
                                         </div>
                                         <div class="eventCard__text">
                                             Работа с подрядчиками и <br> непосредственное проведение <br> события
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="events__card">
+                                    <div class="eventCard">
+                                        <div
+                                                class="eventCard__image"
+                                                style="background-image: url('./img/event_five.png')">
+                                            <div class="eventCard__hoverText">
+                                                DAY <br/>
+                                                FIVE
+                                            </div>
+                                        </div>
+                                        <div class="eventCard__titleContainer">
+                                            <div class="eventCard__title">
+                                                <div class="eventCard__titleBig">
+                                                    STEP FIVE
+                                                </div>
+                                                <div class="eventCard__titleSmall">
+                                                    Профессиональный маркетинговый&nbsp;аудит
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="eventCard__text">
+                                            Профессиональный <br> маркетинговый аудит. <br/> Увеличение продаж.
                                         </div>
                                     </div>
                                 </div>
@@ -690,6 +716,18 @@
                 </button>
             </div>
         </form>
+    </section>
+
+    <section class="videoPopup">
+        <div class="videoPopup__content" id="popupVideo">
+            <div class="videoPopup__close" id="closeVideoPopup"></div>
+            <div class="videoPopup__body">
+                <iframe
+                        src="https://www.youtube.com/embed/x1WjijRhyxc"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
     </section>
 
     <script src="js/scripts.min.js"></script>

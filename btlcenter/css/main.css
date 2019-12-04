@@ -852,6 +852,65 @@ body {
     .popup__close:before {
       transform: rotate(-45deg); }
 
+.videoPopup {
+  position: fixed;
+  left: 0;
+  background-color: rgba(5, 5, 5, 0.81);
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  top: -100vh;
+  opacity: 0;
+  transition: .3s; }
+  .videoPopup._opened {
+    top: 0;
+    opacity: 1; }
+  .videoPopup__content {
+    position: absolute;
+    left: 50%;
+    width: calc(100% - 45px);
+    height: calc(100% - 45px);
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: #000;
+    transition: .3s;
+    transition-delay: .15s;
+    top: 50%;
+    opacity: 1;
+    transform: translate(-50%, -50%); }
+  .videoPopup iframe {
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 1; }
+  .videoPopup__close {
+    background-color: #ffe73f;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    transform: translate(50%, -50%);
+    cursor: pointer; }
+    .videoPopup__close:after, .videoPopup__close:before {
+      content: '';
+      width: 20px;
+      background-color: #000;
+      height: 2px;
+      border-radius: 2px;
+      position: absolute;
+      top: 14px;
+      left: 5px; }
+    .videoPopup__close:after {
+      transform: rotate(45deg); }
+    .videoPopup__close:before {
+      transform: rotate(-45deg); }
+
 .topLine {
   position: absolute;
   z-index: 999;
@@ -925,7 +984,9 @@ body {
   align-items: center;
   width: max-content;
   box-sizing: border-box;
-  border: none; }
+  border: none;
+  text-decoration: none;
+  color: #000; }
   .button._onMain {
     font-family: Montserrat, serif;
     font-style: normal;
@@ -1259,24 +1320,28 @@ body {
     color: #000000;
     font-family: 'Proxima Nova Bold', serif;
     text-transform: uppercase;
-    font-weight: bold; }
+    font-weight: bold;
+    max-width: 250px; }
   .eventCard__titleSmall {
-    font-size: 24px;
-    line-height: 29px; }
+    font-size: 18px;
+    line-height: 24px; }
     @media screen and (min-width: 0px) and (max-width: 1370px) {
       .eventCard__titleSmall {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 20px; } }
     @media screen and (min-width: 0px) and (max-width: 770px) {
       .eventCard__titleSmall {
         text-align: center; } }
   .eventCard__titleBig {
-    font-size: 48px;
-    line-height: 38px; }
+    font-size: 42px;
+    line-height: 32px; }
     @media screen and (min-width: 0px) and (max-width: 1370px) {
       .eventCard__titleBig {
         font-size: 32px;
         line-height: 42px; } }
+    @media screen and (min-width: 0px) and (max-width: 770px) {
+      .eventCard__titleBig {
+        text-align: center; } }
   .eventCard__text {
     box-sizing: border-box;
     word-wrap: break-word;
