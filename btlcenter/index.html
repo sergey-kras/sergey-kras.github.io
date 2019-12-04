@@ -78,7 +78,7 @@
                         </ul>
                     </nav>
                     <div class="topLine__callMe">
-                        <div class="button">
+                        <div class="button" id="openPopup">
                             Закажите звонок
                         </div>
                     </div>
@@ -666,6 +666,30 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <section class="popup">
+        <form class="popup__content" id="popupForm">
+            <div class="popup__close" id="closePopup"></div>
+            <div class="popup__header">
+                <div class="popup__title">
+                    Заказ звонка
+                </div>
+            </div>
+            <div class="popup__body">
+                <div class="popup__inputWrapper">
+                    <input class="popup__input" id="popupName" placeholder="Имя" type="text">
+                </div>
+                <div class="popup__inputWrapper">
+                    <input class="popup__input" id="popupTel" placeholder="Телефон" type="text">
+                </div>
+            </div>
+            <div class="popup__footer">
+                <button class="button _full" id="popupSend">
+                    Отправить
+                </button>
+            </div>
+        </form>
     </section>
 
     <script src="js/scripts.min.js"></script>

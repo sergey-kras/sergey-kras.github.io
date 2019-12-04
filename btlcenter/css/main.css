@@ -776,6 +776,82 @@ body {
   .form__social {
     text-decoration: none; }
 
+.popup {
+  position: fixed;
+  left: 0;
+  background-color: rgba(5, 5, 5, 0.81);
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  top: -100vh;
+  opacity: 0;
+  transition: .3s; }
+  .popup._opened {
+    top: 0;
+    opacity: 1; }
+  .popup__content {
+    position: absolute;
+    left: 50%;
+    width: 320px;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: #fff;
+    top: 0;
+    opacity: 0;
+    transition: .3s;
+    transform: translate(-50%, -50%);
+    transition-delay: .15s; }
+    .popup__content._opened {
+      top: 50%;
+      opacity: 1;
+      transform: translate(-50%, -50%); }
+  .popup__inputWrapper {
+    margin-bottom: 15px; }
+  .popup__input {
+    width: 100%;
+    font-family: Proxima Nova;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.5);
+    outline: none;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    resize: none;
+    height: 100%;
+    border: 1px solid #bfbfbf; }
+  .popup__title {
+    font-family: Proxima Nova, serif;
+    font-size: 24px;
+    line-height: 29px; }
+  .popup__header {
+    margin-bottom: 15px;
+    position: relative; }
+  .popup__close {
+    background-color: #ffe73f;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    transform: translate(50%, -50%);
+    cursor: pointer; }
+    .popup__close:after, .popup__close:before {
+      content: '';
+      width: 20px;
+      background-color: #000;
+      height: 2px;
+      border-radius: 2px;
+      position: absolute;
+      top: 14px;
+      left: 5px; }
+    .popup__close:after {
+      transform: rotate(45deg); }
+    .popup__close:before {
+      transform: rotate(-45deg); }
+
 .topLine {
   position: absolute;
   z-index: 999;
@@ -1249,13 +1325,13 @@ body {
     top: 215px;
     right: 50%;
     transform: translateX(calc(50% - 2px));
-    z-index: 999; }
+    z-index: 10; }
   .eventsPattern .line._horizontal {
     top: 223px;
     right: calc(50% + 15px);
     width: 362px;
     height: 3px;
-    z-index: 999; }
+    z-index: 10; }
   .eventsPattern .square._second {
     top: 225px;
     right: calc(50% + 375px);
