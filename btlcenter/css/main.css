@@ -698,18 +698,57 @@ body {
     margin-left: 7.5px;
     margin-right: 7.5px;
     width: calc(20.83333% - 15px); }
-    .form__small._bottom {
+    .form__small._copyright {
       align-self: flex-end; }
+      @media screen and (min-width: 0px) and (max-width: 1070px) {
+        .form__small._copyright {
+          width: calc(100% - 15px);
+          order: 6;
+          text-align: center; } }
+    @media screen and (min-width: 0px) and (max-width: 1070px) {
+      .form__small._address {
+        width: calc(50% - 15px);
+        text-align: center;
+        order: 1; } }
+    @media screen and (min-width: 0px) and (max-width: 700px) {
+      .form__small._address {
+        width: calc(100% - 15px); } }
+    @media screen and (min-width: 0px) and (max-width: 1070px) {
+      .form__small._contacts {
+        width: calc(50% - 15px);
+        text-align: center;
+        order: 2; } }
+    @media screen and (min-width: 0px) and (max-width: 700px) {
+      .form__small._contacts {
+        width: calc(100% - 15px); } }
   .form__middle {
     box-sizing: border-box;
     word-wrap: break-word;
     margin-left: 7.5px;
     margin-right: 7.5px;
     width: calc(58.33333% - 15px); }
+    @media screen and (min-width: 0px) and (max-width: 1070px) {
+      .form__middle {
+        width: calc(100% - 15px);
+        order: 3; } }
   .form__big {
-    align-self: flex-end; }
+    align-self: flex-end;
+    padding-top: 30px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    width: calc(79.16667% - 15px); }
+    @media screen and (min-width: 0px) and (max-width: 1070px) {
+      .form__big {
+        width: calc(100% - 15px);
+        order: 5;
+        text-align: center; } }
   .form__contacts {
     margin-bottom: 41px; }
+    @media screen and (min-width: 0px) and (max-width: 1070px) {
+      .form__contacts {
+        margin-bottom: 20px; } }
   .form__text {
     font-family: Proxima Nova;
     font-style: normal;
@@ -745,6 +784,10 @@ body {
     flex-wrap: wrap;
     margin-left: -7.5px;
     margin-right: -7.5px; }
+    @media screen and (min-width: 0px) and (max-width: 1070px) {
+      .form__socials {
+        justify-content: center;
+        margin-bottom: 20px; } }
   .form__social {
     box-sizing: border-box;
     word-wrap: break-word;
@@ -795,6 +838,10 @@ body {
       .form__content {
         flex-wrap: wrap;
         padding-top: 40px; } }
+    @media screen and (min-width: 0px) and (max-width: 1070px) {
+      .form__content {
+        padding-top: 20px;
+        padding-bottom: 20px; } }
   .form__inputs {
     display: flex;
     flex-wrap: wrap;
@@ -809,6 +856,9 @@ body {
     margin-left: 7.5px;
     margin-right: 7.5px;
     width: calc(33.33333% - 15px); }
+    @media screen and (min-width: 0px) and (max-width: 700px) {
+      .form__inputWrapper {
+        width: calc(100% - 15px); } }
   .form__copy {
     font-family: Proxima Nova;
     font-style: normal;
