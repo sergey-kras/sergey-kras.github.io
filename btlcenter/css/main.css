@@ -1020,33 +1020,32 @@ body {
   width: 100%;
   top: 30px;
   left: 0; }
-
-@media screen and (min-height: 0px) and (max-height: 900px) and (min-width: 0px) and (max-width: 1200px) {
-  .topLine {
-    opacity: 0;
-    display: flex;
-    position: fixed;
-    z-index: -1;
-    height: 100%;
-    width: 100vw;
-    padding: 0;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: 0s;
-    transition-delay: 0s;
-    top: -100vh; }
-    .topLine._opened {
-      top: 0;
-      opacity: 1;
-      z-index: 9;
-      transition: 1s;
-      transition-delay: .1s; }
-    .topLine__content {
+  @media screen and (min-width: 0px) and (max-width: 1200px) {
+    .topLine {
+      opacity: 0;
+      display: flex;
+      position: fixed;
+      z-index: -1;
+      height: 100%;
+      width: 100vw;
+      padding: 0;
       flex-direction: column;
-      position: relative !important;
-      padding: 0 !important;
-      margin-top: -3vh; } }
+      align-items: center;
+      justify-content: center;
+      transition: 0s;
+      transition-delay: 0s;
+      top: -100vh; }
+      .topLine._opened {
+        top: 0;
+        opacity: 1;
+        z-index: 9;
+        transition: 1s;
+        transition-delay: .1s; }
+      .topLine__content {
+        flex-direction: column;
+        position: relative !important;
+        padding: 0 !important;
+        margin-top: -3vh; } }
   .topLine__logo {
     flex-grow: 1; }
   .topLine__content {
@@ -1121,16 +1120,15 @@ body {
   margin-left: -7.5px;
   margin-right: -7.5px;
   padding-left: 0; }
-
-@media screen and (min-height: 0px) and (max-height: 900px) and (min-width: 0px) and (max-width: 1200px) {
-  .topMenu {
-    flex-direction: column;
-    align-items: center; }
-    .topMenu__link {
-      font-weight: bold;
-      font-size: 24px !important; }
-    .topMenu__item {
-      margin-bottom: 15px; } }
+  @media screen and (min-width: 0px) and (max-width: 1200px) {
+    .topMenu {
+      flex-direction: column;
+      align-items: center; }
+      .topMenu__link {
+        font-weight: bold;
+        font-size: 24px !important; }
+      .topMenu__item {
+        margin-bottom: 15px; } }
   .topMenu__item {
     list-style-type: none;
     margin-right: 25px;
@@ -1445,7 +1443,7 @@ body {
     transform: translateX(100%);
     top: 243px; }
 
-@media screen and (min-height: 900px) and (max-height: 9999px) and (min-width: 1200px) and (max-width: 9999px) {
+@media screen and (min-width: 1200px) and (max-width: 9999px) {
   .burger {
     display: none; } }
 
